@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-  <meta name="description" content="Sabari Poornesh S - Automation & Robotics Engineer | Brand New Portfolio">
-  <meta name="theme-color" content="#0a0e14">
+  <meta name="description" content="Sabari Poornesh S - Automation & Robotics Engineer | Professional Portfolio">
+  <meta name="theme-color" content="#080c12">
+  <meta name="keywords" content="Robotics, Automation, ROS2, Python, C++, Embedded Systems, Portfolio, Engineering">
   <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Sabari425/Portfolio/refs/heads/main/sp-initial-logo-blue-grey-linked-circle-blured-1000-modified.png">
-  <title>Sabari Poornesh S · Brand New Portfolio</title>
+  <title>Sabari Poornesh S · Automation & Robotics Portfolio</title>
   
-  <!-- PREMIUM Fonts -->
+  <!-- Premium Fonts & Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   
   <style>
     /* ============================================
-       ROOT VARIABLES - PREMIUM 60-30-10 SYSTEM
+       ROOT VARIABLES - PROFESSIONAL SYSTEM (60-30-10)
        ============================================ */
     * {
       margin: 0;
@@ -24,58 +25,58 @@
     }
 
     :root {
-      /* 60% NEUTRAL BASE - PREMIUM Dark */
-      --bg-primary: #070b0f;
-      --bg-secondary: #0c1218;
-      --bg-tertiary: #111a24;
-      --bg-card: rgba(20, 30, 40, 0.7);
-      --bg-elevated: #1a2836;
-      --bg-overlay: rgba(7, 11, 15, 0.92);
+      /* 60% NEUTRAL BASE - Sophisticated Dark */
+      --bg-primary: #080c12;
+      --bg-secondary: #0e141c;
+      --bg-tertiary: #141c28;
+      --bg-card: rgba(20, 30, 44, 0.75);
+      --bg-elevated: #1a2838;
+      --bg-overlay: rgba(8, 12, 18, 0.92);
       
-      /* 30% PRIMARY - Rich Indigo */
-      --primary: #2d4b6e;
-      --primary-light: #3f638a;
-      --primary-dark: #1e334a;
-      --primary-soft: #507a9e;
+      /* 30% PRIMARY - Deep Indigo/Slate */
+      --primary: #2a4560;
+      --primary-light: #3c6080;
+      --primary-dark: #1c3045;
+      --primary-soft: #4a7090;
       
-      /* 10% ACCENT - PREMIUM Gold/Cyan Hybrid */
-      --accent: #00d4ff;
-      --accent-glow: rgba(0, 212, 255, 0.3);
-      --accent-solid: #00b8e0;
-      --accent-dark: #0096b8;
-      --accent-secondary: #ffd700;
+      /* 10% ACCENT - Vibrant Cyan/Gold */
+      --accent: #00d0ff;
+      --accent-glow: rgba(0, 208, 255, 0.25);
+      --accent-solid: #00b0d8;
+      --accent-dark: #0088a8;
+      --accent-secondary: #ffc800;
+      --accent-secondary-glow: rgba(255, 200, 0, 0.25);
       
       /* Text Hierarchy */
-      --text-primary: #f5f8fc;
-      --text-secondary: #c0ccd9;
-      --text-muted: #8a9eb0;
-      --text-light: #a8bac8;
+      --text-primary: #f0f4f8;
+      --text-secondary: #bcc8d4;
+      --text-muted: #8898a8;
+      --text-light: #a4b4c4;
       
-      /* PREMIUM Borders & Shadows */
+      /* Borders & Shadows */
       --border-light: rgba(255, 255, 255, 0.04);
       --border-medium: rgba(255, 255, 255, 0.08);
-      --border-accent: rgba(0, 212, 255, 0.25);
-      --border-gold: rgba(255, 215, 0, 0.2);
+      --border-accent: rgba(0, 208, 255, 0.2);
+      --border-gold: rgba(255, 200, 0, 0.15);
       
-      --shadow-sm: 0 8px 20px rgba(0, 0, 0, 0.3);
-      --shadow-md: 0 15px 35px rgba(0, 0, 0, 0.4);
-      --shadow-lg: 0 25px 50px rgba(0, 0, 0, 0.5);
-      --shadow-glow: 0 0 40px var(--accent-glow);
-      --shadow-gold: 0 0 30px rgba(255, 215, 0, 0.15);
-      --shadow-accent: 0 10px 30px rgba(0, 212, 255, 0.2);
+      --shadow-sm: 0 6px 16px rgba(0, 0, 0, 0.25);
+      --shadow-md: 0 12px 28px rgba(0, 0, 0, 0.35);
+      --shadow-lg: 0 20px 45px rgba(0, 0, 0, 0.45);
+      --shadow-glow: 0 0 35px var(--accent-glow);
+      --shadow-accent: 0 8px 25px rgba(0, 208, 255, 0.15);
       
-      /* PREMIUM Spacing */
-      --radius-sm: 16px;
-      --radius-md: 24px;
-      --radius-lg: 36px;
-      --radius-xl: 50px;
+      /* Spacing & Radius */
+      --radius-sm: 14px;
+      --radius-md: 22px;
+      --radius-lg: 32px;
+      --radius-xl: 48px;
       --container-padding: 5%;
       
-      /* PREMIUM Transitions */
-      --transition-fast: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-      --transition-base: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-      --transition-slow: 0.6s cubic-bezier(0.65, 0, 0.35, 1);
-      --transition-bounce: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      /* Transitions */
+      --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      --transition-base: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      --transition-smooth: 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+      --transition-bounce: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
       
       /* Font Sizes */
       --text-xs: 0.75rem;
@@ -89,60 +90,62 @@
       --text-5xl: 3rem;
       --text-6xl: 3.75rem;
       --text-7xl: 4.5rem;
-      --text-8xl: 6rem;
+      --text-8xl: 5.5rem;
     }
 
-    /* Light Theme - PREMIUM Light */
+    /* Light Theme */
     body.light-theme {
-      --bg-primary: #f8fafc;
+      --bg-primary: #f5f8fc;
       --bg-secondary: #ffffff;
-      --bg-tertiary: #f1f5f9;
+      --bg-tertiary: #eef2f8;
       --bg-card: rgba(255, 255, 255, 0.85);
       --bg-elevated: #ffffff;
-      --bg-overlay: rgba(248, 250, 252, 0.92);
-      --primary: #3a5a7a;
-      --primary-light: #5a7ea0;
-      --primary-dark: #2a4258;
-      --primary-soft: #6a8eae;
+      --bg-overlay: rgba(245, 248, 252, 0.92);
+      --primary: #345e80;
+      --primary-light: #4a7a9e;
+      --primary-dark: #244860;
+      --primary-soft: #5a8aaa;
       --accent: #0088cc;
-      --accent-glow: rgba(0, 136, 204, 0.2);
+      --accent-glow: rgba(0, 136, 204, 0.18);
       --accent-solid: #0077b3;
-      --accent-dark: #005580;
-      --accent-secondary: #e6a800;
-      --text-primary: #0f172a;
-      --text-secondary: #334155;
-      --text-muted: #64748b;
-      --text-light: #94a3b8;
+      --accent-dark: #005c8a;
+      --accent-secondary: #d4a000;
+      --accent-secondary-glow: rgba(212, 160, 0, 0.18);
+      --text-primary: #0f1a28;
+      --text-secondary: #2a3a50;
+      --text-muted: #5a6a80;
+      --text-light: #7a8a9e;
       --border-light: rgba(0, 0, 0, 0.04);
       --border-medium: rgba(0, 0, 0, 0.08);
-      --border-accent: rgba(0, 136, 204, 0.2);
-      --border-gold: rgba(230, 168, 0, 0.15);
-      --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.04);
-      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06);
-      --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.08);
+      --border-accent: rgba(0, 136, 204, 0.18);
+      --border-gold: rgba(212, 160, 0, 0.12);
+      --shadow-sm: 0 4px 10px rgba(0, 0, 0, 0.04);
+      --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.06);
+      --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.08);
     }
 
     /* Yellow Theme */
     body.yellow-theme {
-      --bg-primary: #0f140e;
-      --bg-secondary: #161e14;
-      --bg-tertiary: #1d281a;
-      --bg-card: rgba(30, 40, 28, 0.7);
-      --bg-elevated: #263620;
-      --bg-overlay: rgba(15, 20, 14, 0.92);
-      --primary: #5a6e3a;
-      --primary-light: #7a9450;
-      --primary-dark: #3d4a28;
-      --primary-soft: #8eaa60;
-      --accent: #ffd700;
-      --accent-glow: rgba(255, 215, 0, 0.3);
-      --accent-solid: #e6c200;
-      --accent-dark: #b39800;
-      --accent-secondary: #00d4ff;
-      --text-primary: #f5f8e8;
-      --text-secondary: #d4ddc0;
-      --text-muted: #a8b898;
-      --text-light: #c0d0a8;
+      --bg-primary: #0e140e;
+      --bg-secondary: #141c14;
+      --bg-tertiary: #1a261a;
+      --bg-card: rgba(26, 38, 26, 0.75);
+      --bg-elevated: #223022;
+      --bg-overlay: rgba(14, 20, 14, 0.92);
+      --primary: #4a6030;
+      --primary-light: #648040;
+      --primary-dark: #344520;
+      --primary-soft: #749050;
+      --accent: #ffd000;
+      --accent-glow: rgba(255, 208, 0, 0.25);
+      --accent-solid: #e6b800;
+      --accent-dark: #b39000;
+      --accent-secondary: #00d0ff;
+      --accent-secondary-glow: rgba(0, 208, 255, 0.25);
+      --text-primary: #f0f4e8;
+      --text-secondary: #d0dcc0;
+      --text-muted: #a0b498;
+      --text-light: #b8c8a8;
     }
 
     /* Grey-White-Black Theme */
@@ -150,26 +153,27 @@
       --bg-primary: #0a0a0a;
       --bg-secondary: #121212;
       --bg-tertiary: #1a1a1a;
-      --bg-card: rgba(30, 30, 30, 0.7);
+      --bg-card: rgba(28, 28, 28, 0.75);
       --bg-elevated: #222222;
       --bg-overlay: rgba(10, 10, 10, 0.92);
-      --primary: #505050;
-      --primary-light: #707070;
-      --primary-dark: #353535;
-      --primary-soft: #8a8a8a;
-      --accent: #d0d0d0;
-      --accent-glow: rgba(208, 208, 208, 0.25);
-      --accent-solid: #b8b8b8;
-      --accent-dark: #989898;
+      --primary: #484848;
+      --primary-light: #686868;
+      --primary-dark: #303030;
+      --primary-soft: #808080;
+      --accent: #c0c0c0;
+      --accent-glow: rgba(192, 192, 192, 0.2);
+      --accent-solid: #a8a8a8;
+      --accent-dark: #888888;
       --accent-secondary: #a0a0a0;
-      --text-primary: #f0f0f0;
-      --text-secondary: #c8c8c8;
-      --text-muted: #a0a0a0;
-      --text-light: #b0b0b0;
+      --accent-secondary-glow: rgba(160, 160, 160, 0.2);
+      --text-primary: #eeeeee;
+      --text-secondary: #c0c0c0;
+      --text-muted: #989898;
+      --text-light: #aaaaaa;
     }
 
     /* ============================================
-       PREMIUM BASE STYLES
+       BASE STYLES
        ============================================ */
     html {
       scroll-behavior: smooth;
@@ -181,12 +185,11 @@
       font-family: 'Plus Jakarta Sans', sans-serif;
       background: var(--bg-primary);
       color: var(--text-primary);
-      line-height: 1.7;
+      line-height: 1.65;
       overflow-x: hidden;
-      transition: background var(--transition-slow), color var(--transition-base);
+      transition: background var(--transition-smooth), color var(--transition-base);
     }
 
-    /* PREMIUM Custom Scrollbar */
     ::-webkit-scrollbar { width: 8px; }
     ::-webkit-scrollbar-track { background: var(--bg-secondary); }
     ::-webkit-scrollbar-thumb { 
@@ -197,377 +200,257 @@
 
     ::selection { background: var(--accent); color: var(--bg-primary); }
 
-    h1, h2, h3, h4, h5, h6 { 
-      font-weight: 700; 
-      line-height: 1.2; 
-      letter-spacing: -0.02em;
-    }
-
+    h1, h2, h3, h4, h5, h6 { font-weight: 700; line-height: 1.2; letter-spacing: -0.02em; }
     h1 { font-size: var(--text-8xl); font-weight: 800; }
     h2 { font-size: var(--text-5xl); margin-bottom: 1.5rem; }
     h3 { font-size: var(--text-3xl); }
     h4 { font-size: var(--text-2xl); }
-
     p { color: var(--text-secondary); }
-
     a { text-decoration: none; color: inherit; }
 
-    .container { 
-      max-width: 1440px; 
-      margin: 0 auto; 
-      padding: 0 var(--container-padding); 
-      position: relative;
-      z-index: 5;
-    }
+    .container { max-width: 1400px; margin: 0 auto; padding: 0 var(--container-padding); position: relative; z-index: 5; }
+    section { padding: 100px var(--container-padding); position: relative; }
 
-    section { 
-      padding: 120px var(--container-padding); 
-      position: relative;
-    }
-
-    /* PREMIUM Section Headers */
-    .section-header { 
-      text-align: center; 
-      margin-bottom: 80px;
-      position: relative;
-    }
-
+    .section-header { text-align: center; margin-bottom: 70px; }
     .section-title { 
-      font-size: clamp(3rem, 7vw, 4.5rem); 
+      font-size: clamp(2.8rem, 6vw, 4rem); 
       font-weight: 800; 
-      margin-bottom: 1.5rem;
-      background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 80%);
+      margin-bottom: 1.2rem;
+      background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 70%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
       display: inline-block;
     }
-
     .section-title span { 
       background: linear-gradient(135deg, var(--accent) 0%, var(--accent-secondary) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
-
-    .section-subtitle { 
-      color: var(--text-muted); 
-      font-size: var(--text-xl); 
-      max-width: 700px; 
-      margin: 0 auto;
-      font-weight: 400;
-    }
-
-    /* PREMIUM Divider */
-    .PREMIUM-divider {
-      width: 80px;
-      height: 4px;
+    .section-subtitle { color: var(--text-muted); font-size: var(--text-lg); max-width: 650px; margin: 0 auto; }
+    .divider {
+      width: 70px; height: 3px;
       background: linear-gradient(90deg, transparent, var(--accent), var(--accent-secondary), transparent);
-      margin: 1.5rem auto;
-      border-radius: 4px;
+      margin: 1.2rem auto; border-radius: 3px;
     }
 
     /* ============================================
-       PREMIUM HEADER
+       HEADER - Fixed Navigation
        ============================================ */
     .header {
-      position: fixed;
-      top: 0; left: 0; width: 100%;
-      padding: 1.2rem var(--container-padding);
+      position: fixed; top: 0; left: 0; width: 100%;
+      padding: 1rem var(--container-padding);
       background: var(--bg-overlay);
-      backdrop-filter: blur(30px) saturate(180%);
-      -webkit-backdrop-filter: blur(30px) saturate(180%);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 1000;
-      border-bottom: 1px solid var(--border-light);
+      backdrop-filter: blur(25px) saturate(180%);
+      -webkit-backdrop-filter: blur(25px) saturate(180%);
+      display: flex; justify-content: space-between; align-items: center;
+      z-index: 1000; border-bottom: 1px solid var(--border-light);
       transition: var(--transition-base);
     }
+    .header.scrolled { padding: 0.8rem var(--container-padding); background: var(--bg-primary); box-shadow: var(--shadow-md); }
+    .logo { font-size: 1.8rem; font-weight: 800; color: var(--text-primary); }
+    .logo span { color: var(--accent); }
 
-    .header.scrolled { 
-      padding: 0.9rem var(--container-padding); 
-      background: var(--bg-primary);
-      box-shadow: var(--shadow-md);
-    }
-
-    .logo { 
-      font-size: 2rem; 
-      font-weight: 800; 
-      color: var(--text-primary); 
-      text-decoration: none;
-      background: linear-gradient(135deg, var(--text-primary), var(--accent));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    .logo span { 
-      background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .navbar { display: flex; align-items: center; gap: 2.5rem; }
-    .nav-links { display: flex; gap: 2rem; }
-
+    .navbar { display: flex; align-items: center; gap: 2rem; }
+    .nav-links { display: flex; gap: 1.8rem; }
     .nav-link {
-      color: var(--text-secondary); 
-      font-weight: 500; 
-      font-size: var(--text-base);
-      padding: 0.5rem 0; 
-      position: relative; 
-      transition: var(--transition-fast);
+      color: var(--text-secondary); font-weight: 500; font-size: 0.95rem;
+      padding: 0.4rem 0; position: relative; transition: var(--transition-fast);
     }
-
     .nav-link::after {
-      content: ''; 
-      position: absolute; 
-      bottom: -2px; 
-      left: 0; 
-      width: 0; 
-      height: 2px;
-      background: linear-gradient(90deg, var(--accent), var(--accent-secondary));
-      transition: var(--transition-base); 
-      border-radius: 2px;
+      content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px;
+      background: var(--accent); transition: var(--transition-base); border-radius: 2px;
     }
-
     .nav-link:hover { color: var(--text-primary); }
     .nav-link:hover::after, .nav-link.active::after { width: 100%; }
     .nav-link.active { color: var(--accent); }
 
-    /* PREMIUM Theme Switcher */
     .theme-switcher { position: relative; margin-left: 1rem; }
     .theme-btn {
-      background: var(--bg-elevated); 
-      border: 1px solid var(--border-medium); 
-      border-radius: 50px;
-      padding: 0.7rem 1.4rem; 
-      display: flex; 
-      align-items: center; 
-      gap: 0.6rem; 
-      cursor: pointer;
-      color: var(--text-primary); 
-      font-size: var(--text-sm);
-      font-weight: 500;
-      transition: var(--transition-base);
-      backdrop-filter: blur(10px);
+      background: var(--bg-elevated); border: 1px solid var(--border-medium); border-radius: 40px;
+      padding: 0.6rem 1.2rem; display: flex; align-items: center; gap: 0.5rem; cursor: pointer;
+      color: var(--text-primary); font-size: 0.9rem; font-weight: 500; transition: var(--transition-base);
     }
-    .theme-btn:hover { 
-      border-color: var(--accent); 
-      background: var(--bg-card);
-      box-shadow: var(--shadow-glow);
-      transform: scale(1.02);
-    }
-    .theme-btn i { font-size: 1.3rem; color: var(--accent); }
+    .theme-btn:hover { border-color: var(--accent); background: var(--bg-card); box-shadow: var(--shadow-glow); }
+    .theme-btn i { font-size: 1.2rem; color: var(--accent); }
 
     .theme-dropdown {
-      position: absolute; 
-      top: 120%; 
-      right: 0;
-      background: var(--bg-elevated); 
-      border: 1px solid var(--border-medium); 
-      border-radius: var(--radius-md);
-      padding: 0.6rem; 
-      min-width: 200px; 
-      opacity: 0; 
-      visibility: hidden;
-      transform: translateY(-15px); 
-      transition: var(--transition-base); 
-      box-shadow: var(--shadow-lg);
+      position: absolute; top: 120%; right: 0; background: var(--bg-elevated);
+      border: 1px solid var(--border-medium); border-radius: var(--radius-md);
+      padding: 0.5rem; min-width: 190px; opacity: 0; visibility: hidden;
+      transform: translateY(-12px); transition: var(--transition-base); box-shadow: var(--shadow-lg);
       backdrop-filter: blur(20px);
     }
-    .theme-switcher:hover .theme-dropdown { 
-      opacity: 1; 
-      visibility: visible; 
-      transform: translateY(0); 
-    }
+    .theme-switcher:hover .theme-dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
 
     .theme-option {
-      display: flex; 
-      align-items: center; 
-      gap: 1rem; 
-      padding: 0.9rem 1.2rem; 
-      width: 100%;
-      background: transparent; 
-      border: none; 
-      color: var(--text-primary); 
-      cursor: pointer;
-      border-radius: var(--radius-sm); 
-      transition: var(--transition-fast); 
-      font-size: var(--text-sm);
-      font-weight: 500;
+      display: flex; align-items: center; gap: 0.8rem; padding: 0.8rem 1rem; width: 100%;
+      background: transparent; border: none; color: var(--text-primary); cursor: pointer;
+      border-radius: var(--radius-sm); transition: var(--transition-fast); font-size: 0.9rem;
     }
-    .theme-option:hover { 
-      background: var(--bg-card);
-      transform: translateX(5px);
-    }
-    .theme-option.active { 
-      background: linear-gradient(135deg, var(--primary), var(--accent-dark));
-      color: white;
-    }
-    .theme-option .color-dot { 
-      width: 18px; 
-      height: 18px; 
-      border-radius: 50%;
-      box-shadow: 0 0 10px currentColor;
-    }
-    .color-dot.blue { background: #00d4ff; box-shadow: 0 0 15px #00d4ff; }
-    .color-dot.yellow { background: #ffd700; box-shadow: 0 0 15px #ffd700; }
-    .color-dot.grey { background: #d0d0d0; box-shadow: 0 0 15px #d0d0d0; }
+    .theme-option:hover { background: var(--bg-card); transform: translateX(3px); }
+    .theme-option.active { background: var(--primary); color: white; }
+    .theme-option .color-dot { width: 16px; height: 16px; border-radius: 50%; box-shadow: 0 0 8px currentColor; }
+    .color-dot.blue { background: #00d0ff; }
+    .color-dot.yellow { background: #ffd000; }
+    .color-dot.grey { background: #c0c0c0; }
 
-    #menu-icon { display: none; font-size: 2rem; color: var(--accent); cursor: pointer; z-index: 1001; }
+    #menu-icon { display: none; font-size: 1.8rem; color: var(--accent); cursor: pointer; }
 
     /* ============================================
-       PREMIUM HOME SECTION - Galaxy Gradient
+       HOME SECTION - Left Text, Right Fixed Image
        ============================================ */
     .home {
       min-height: 100vh;
-      display: flex;
+      display:flexbox;
       align-items: center;
       position: relative;
-      padding-top: 120px;
+      padding: 100px var(--container-padding) 0;
+      isolation: isolate;
+      overflow: hidden;
+    }
+
+    /* Background Image Fixed to Right */
+    .home-bg-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      transition: background-image 0.8s cubic-bezier(0.65, 0, 0.35, 1);
-      isolation: isolate;
+      transition: background-image 0.6s ease;
+      z-index: 0;
+      pointer-events: none;
     }
 
-    /* Theme Background Images */
-    body:not(.yellow-theme):not(.grey-white-black-theme):not(.light-theme) .home {
+    /* Theme-specific background images */
+    body:not(.yellow-theme):not(.grey-white-black-theme):not(.light-theme) .home-bg-image {
       background-image: url('https://raw.githubusercontent.com/Sabari425/Portfolio/refs/heads/main/org%20Sabari%20Poornesh%20S%20Blue%20configuration.png?raw=true');
     }
-    body.yellow-theme .home {
+    body.yellow-theme .home-bg-image {
       background-image: url('https://raw.githubusercontent.com/Sabari425/Portfolio/refs/heads/main/org%20Sabari%20Poornesh%20S%20Yellow%20configuration.png?raw=true');
     }
-    body.grey-white-black-theme .home {
+    body.grey-white-black-theme .home-bg-image {
       background-image: url('https://raw.githubusercontent.com/Sabari425/Portfolio/refs/heads/main/org%20Sabari%20Poornesh%20S%20White%20configuration.png?raw=true');
     }
-    body.light-theme .home {
-      background-image: url('https://raw.githubusercontent.com/Sabari425/Portfolio/refs/heads/main/org%20Sabari%20Poornesh%20S%20Blue%20configuration.png?raw=true');
+    body.light-theme .home-bg-image {
+      background-image: url('https://raw.githubusercontent.com/Sabari425/Portfolio/refs/heads/main/org%20Sabari%20Poornesh%20S%20White%20configuration.png?raw=true');
     }
 
-    /* PREMIUM Radial Gradient Overlay */
-    .home-overlay {
+    /* Gradient overlay on background */
+    .home-bg-overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(90deg, var(--bg-primary) 0%, transparent 100%);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    /* Galaxy animated overlay */
+    .galaxy-overlay-home {
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at 30% 50%, transparent 0%, var(--bg-primary) 90%);
+      background: radial-gradient(circle at 30% 50%, var(--accent-glow) 0%, transparent 40%),
+                  radial-gradient(circle at 70% 30%, var(--accent-secondary-glow) 0%, transparent 40%);
+      opacity: 0.3;
+      animation: galaxyPulse 10s ease-in-out infinite;
       pointer-events: none;
       z-index: 1;
     }
 
-    /* PREMIUM Animated Galaxy Background */
-    .galaxy-bg {
-      position: absolute;
-      inset: 0;
-      background: 
-        radial-gradient(circle at 20% 30%, var(--accent-glow) 0%, transparent 30%),
-        radial-gradient(circle at 80% 70%, rgba(255, 215, 0, 0.15) 0%, transparent 40%),
-        radial-gradient(circle at 50% 50%, var(--primary-soft) 0%, transparent 50%);
-      opacity: 0.4;
-      animation: galaxyPulse 12s ease-in-out infinite;
-      pointer-events: none;
-      z-index: 0;
-    }
-
     @keyframes galaxyPulse {
-      0%, 100% { opacity: 0.3; transform: scale(1); }
-      50% { opacity: 0.5; transform: scale(1.05); }
+      0%, 100% { opacity: 0.2; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(1.05); }
     }
 
     .home-content {
-      max-width: 900px;
+      max-width: 1000px;
       position: relative;
       z-index: 10;
     }
 
     .home-greeting {
-      font-size: var(--text-2xl); 
-      color: var(--accent); 
-      margin-bottom: 1.5rem;
-      display: flex; 
-      align-items: center; 
-      gap: 1rem;
-      opacity: 0; 
-      animation: fadeInUp 1s ease forwards;
-      font-weight: 500;
+      font-size: var(--text-xl);
+      color: var(--accent);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      opacity: 0;
+      animation: fadeInLeft 0.7s ease forwards;
     }
-    .home-greeting i { 
-      font-size: 2.2rem;
+
+    .home-greeting i {
+      font-size: 2rem;
       animation: wave 2s ease-in-out infinite;
     }
 
     @keyframes wave {
       0%, 100% { transform: rotate(0deg); }
-      25% { transform: rotate(-15deg); }
-      75% { transform: rotate(15deg); }
+      25% { transform: rotate(-12deg); }
+      75% { transform: rotate(12deg); }
     }
 
     .home-name {
-      font-size: clamp(4rem, 10vw, 7rem); 
-      font-weight: 800; 
-      line-height: 1.1; 
-      margin-bottom: 1.5rem;
-      opacity: 0; 
-      animation: fadeInUp 1s ease 0.2s forwards;
+      font-size: clamp(3.5rem, 8vw, 5.5rem);
+      font-weight: 800;
+      line-height: 1.1;
+      margin-bottom: 1.2rem;
+      opacity: 0;
+      animation: fadeInLeft 0.7s ease 0.15s forwards;
       background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent) 50%, var(--accent-secondary) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      text-shadow: var(--shadow-glow);
     }
 
     .typed-wrapper {
-      font-size: clamp(2rem, 5vw, 3rem); 
-      font-weight: 600; 
-      margin-bottom: 2rem; 
-      min-height: 5rem;
-      opacity: 0; 
-      animation: fadeInUp 1s ease 0.4s forwards;
-    }
-    .typed-text { 
-      background: linear-gradient(135deg, var(--text-secondary), var(--accent));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-    .typed-cursor { 
-      color: var(--accent); 
-      font-weight: 300; 
-      animation: blink 1s infinite; 
+      font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      min-height: 4rem;
+      opacity: 0;
+      animation: fadeInLeft 0.7s ease 0.3s forwards;
     }
 
+    .typed-text { color: var(--text-primary); }
+    .typed-cursor { color: var(--accent); animation: blink 1s infinite; }
+
     .home-description {
-      font-size: var(--text-xl); 
-      color: var(--text-secondary); 
-      max-width: 650px; 
-      margin-bottom: 3rem;
-      opacity: 0; 
-      animation: fadeInUp 1s ease 0.6s forwards;
-      line-height: 1.8;
+      font-size: var(--text-lg);
+      color: var(--text-secondary);
+      max-width: 550px;
+      margin-bottom: 2.5rem;
+      opacity: 0;
+      animation: fadeInLeft 0.7s ease 0.45s forwards;
+      line-height: 1.7;
     }
 
     .home-cta {
-      display: flex; 
-      gap: 1.8rem; 
-      align-items: center; 
+      display: flex;
+      gap: 1.5rem;
       flex-wrap: wrap;
-      opacity: 0; 
-      animation: fadeInUp 1s ease 0.8s forwards;
+      opacity: 0;
+      animation: fadeInLeft 0.7s ease 0.6s forwards;
     }
 
-    /* PREMIUM Buttons */
     .btn {
-      display: inline-flex; 
-      align-items: center; 
-      justify-content: center; 
-      gap: 0.8rem;
-      padding: 1.1rem 2.8rem; 
-      border-radius: 60px; 
-      font-weight: 600; 
-      font-size: var(--text-base);
-      transition: var(--transition-bounce); 
-      cursor: pointer; 
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.6rem;
+      padding: 1rem 2.5rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: var(--transition-bounce);
+      cursor: pointer;
       border: none;
       position: relative;
       overflow: hidden;
@@ -576,82 +459,83 @@
     .btn::before {
       content: '';
       position: absolute;
-      top: 0; left: -100%;
-      width: 100%; height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-      transition: left 0.6s ease;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+      transition: left 0.5s ease;
     }
 
     .btn:hover::before { left: 100%; }
 
-    .btn-primary { 
+    .btn-primary {
       background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-      color: var(--bg-primary); 
+      color: var(--bg-primary);
       box-shadow: var(--shadow-accent);
-      font-weight: 600;
-    }
-    .btn-primary:hover { 
-      transform: translateY(-5px) scale(1.02);
-      box-shadow: 0 20px 40px var(--accent-glow);
     }
 
-    .btn-outline { 
-      background: transparent; 
-      color: var(--text-primary); 
+    .btn-primary:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 15px 30px var(--accent-glow);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text-primary);
       border: 1.5px solid var(--border-accent);
       backdrop-filter: blur(10px);
     }
-    .btn-outline:hover { 
-      border-color: var(--accent); 
+
+    .btn-outline:hover {
+      border-color: var(--accent);
       background: var(--bg-card);
-      transform: translateY(-5px);
-      box-shadow: var(--shadow-glow);
+      transform: translateY(-4px);
     }
 
     .home-social {
-      display: flex; 
-      gap: 1.2rem; 
-      margin-top: 3.5rem;
-      opacity: 0; 
-      animation: fadeInUp 1s ease 1s forwards;
+      display: flex;
+      gap: 1rem;
+      margin-top: 3rem;
+      opacity: 0;
+      animation: fadeInLeft 0.7s ease 0.75s forwards;
     }
 
     .social-link {
-      width: 52px; 
-      height: 52px; 
-      display: flex; 
-      align-items: center; 
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
       justify-content: center;
-      background: var(--bg-card); 
-      border-radius: 18px; 
+      background: var(--bg-card);
+      border-radius: 16px;
       color: var(--text-secondary);
-      font-size: 1.6rem; 
-      transition: var(--transition-bounce); 
+      font-size: 1.5rem;
+      transition: var(--transition-bounce);
       border: 1px solid var(--border-light);
       backdrop-filter: blur(10px);
     }
 
-    .social-link:hover { 
-      background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-      color: var(--bg-primary); 
-      transform: translateY(-8px) rotate(5deg);
-      border-color: transparent; 
-      box-shadow: var(--shadow-accent);
+    .social-link:hover {
+      background: var(--accent);
+      color: var(--bg-primary);
+      transform: translateY(-6px) rotate(3deg);
+      border-color: transparent;
     }
 
     .home-stats {
-      display: flex; 
-      gap: 4rem; 
-      margin-top: 4rem; 
+      display: flex;
+      gap: 4rem;
+      margin-top: 3.5rem;
       padding-top: 2.5rem;
+      padding-bottom: 2rem;
       border-top: 1px solid var(--border-light);
-      opacity: 0; 
-      animation: fadeInUp 1s ease 1.2s forwards;
+      opacity: 0;
+      animation: fadeInLeft 0.7s ease 0.9s forwards;
     }
 
-    .stat-item { text-align: left; }
     .stat-number { 
-      font-size: 3rem; 
+      font-size: 2.5rem; 
       font-weight: 800; 
       color: var(--accent); 
       line-height: 1.1;
@@ -660,210 +544,231 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
-    .stat-label { color: var(--text-muted); font-size: var(--text-base); font-weight: 500; }
+    .stat-label { color: var(--text-muted); font-size: 0.95rem; font-weight: 500; }
+
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+      40% { transform: translateX(-50%) translateY(-10px); }
+      60% { transform: translateX(-50%) translateY(-5px); }
+    }
 
     /* ============================================
-       PREMIUM ABOUT SECTION - Purposeful Cards
+       ANIMATIONS
        ============================================ */
-    .about { 
-      background: var(--bg-secondary);
-      position: relative;
+    @keyframes fadeInLeft {
+      from { opacity: 0; transform: translateX(-40px); }
+      to { opacity: 1; transform: translateX(0); }
     }
 
-    .about::before {
-      content: '';
-      position: absolute;
-      top: -50px; left: 0; width: 100%; height: 100px;
-      background: linear-gradient(to bottom, transparent, var(--bg-secondary));
-      pointer-events: none;
+    @keyframes fadeInRight {
+      from { opacity: 0; transform: translateX(40px); }
+      to { opacity: 1; transform: translateX(0); }
     }
 
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+
+    .animate-on-scroll {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .animate-on-scroll.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ============================================
+       ABOUT SECTION - Grid Cards
+       ============================================ */
+    .about { background: var(--bg-secondary); }
+    
     .about-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 2.5rem;
-      margin-bottom: 2.5rem;
+      gap: 2rem;
+      margin-bottom: 2rem;
     }
 
     .about-card {
       background: var(--bg-card);
-      padding: 2.8rem 2.2rem;
+      padding: 2.5rem 2rem;
       border-radius: var(--radius-lg);
-      text-align: left;
       border: 1px solid var(--border-light);
       transition: var(--transition-bounce);
-      position: relative;
-      overflow: hidden;
       backdrop-filter: blur(20px);
+      position: relative;
+      overflow: visible;
     }
 
     .about-card::before {
       content: '';
       position: absolute;
-      top: 0; left: 0; width: 100%; height: 100%;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       background: radial-gradient(circle at top right, var(--accent-glow), transparent 70%);
       opacity: 0;
       transition: var(--transition-base);
     }
 
-    .about-card:hover::before { opacity: 0.15; }
-    .about-card:hover { 
-      transform: translateY(-12px) scale(1.01);
-      box-shadow: var(--shadow-lg); 
+    .about-card:hover::before { opacity: 0.12; }
+    .about-card:hover {
+      transform: translateY(-10px);
+      box-shadow: var(--shadow-lg);
       border-color: var(--border-accent);
     }
 
     .about-icon {
-      width: 65px; 
-      height: 65px; 
+      width: 60px;
+      height: 60px;
       margin-bottom: 1.8rem;
       background: linear-gradient(135deg, var(--primary-dark), var(--bg-elevated));
-      border-radius: 20px;
-      display: flex; 
-      align-items: center; 
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
       justify-content: center;
-      font-size: 2.2rem; 
+      font-size: 2rem;
       transition: var(--transition-bounce);
-      box-shadow: var(--shadow-sm);
     }
 
-    /* Contextual Icon Colors */
-    .about-card:nth-child(1) .about-icon { color: #00d4ff; }
+    .about-card:nth-child(1) .about-icon { color: #00d0ff; }
     .about-card:nth-child(2) .about-icon { color: #ff6b6b; }
-    .about-card:nth-child(3) .about-icon { color: #ffd700; }
+    .about-card:nth-child(3) .about-icon { color: #ffc800; }
 
-    .about-card:hover .about-icon { 
-      transform: scale(1.1) rotate(5deg);
-      box-shadow: var(--shadow-accent);
+    .about-card:hover .about-icon {
+      transform: scale(1.08) rotate(3deg);
     }
 
-    .about-card h3 { 
-      font-size: 1.5rem; 
-      margin-bottom: 1.2rem;
-      font-weight: 700;
+    .about-card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
     }
 
-    .about-card p { 
-      color: var(--text-muted); 
-      font-size: var(--text-sm); 
-      margin-bottom: 1.8rem; 
-      line-height: 1.7;
+    .about-card p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
     }
 
     .about-link {
-      color: var(--accent); 
-      font-weight: 600; 
-      display: inline-flex; 
-      align-items: center; 
-      gap: 0.6rem;
+      color: var(--accent);
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
       transition: var(--transition-fast);
-      font-size: 0.95rem;
-    }
-    .about-link i { transition: var(--transition-fast); }
-    .about-link:hover { gap: 1rem; color: var(--accent-secondary); }
-
-    .more-btn-container { text-align: center; margin: 3rem 0 1rem; }
-    .more-btn {
-      background: var(--bg-card); 
-      border: 1px solid var(--border-medium); 
-      border-radius: 60px;
-      padding: 1rem 3rem; 
-      color: var(--text-primary); 
-      font-weight: 600; 
+      font-size: 0.9rem;
       cursor: pointer;
-      display: inline-flex; 
-      align-items: center; 
-      gap: 0.8rem; 
+      text-decoration: none;
+      position: relative;
+      z-index: 2;
+      pointer-events: auto !important;
+    }
+
+    .about-link:hover {
+      gap: 0.8rem;
+      color: var(--accent-secondary);
+      text-shadow: 0 0 10px var(--accent-secondary-glow);
+      transform: translateX(2px);
+    }
+
+    .more-btn-container { text-align: center; margin: 2.5rem 0 1rem; }
+
+    .more-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-medium);
+      border-radius: 50px;
+      padding: 0.9rem 2.5rem;
+      color: var(--text-primary);
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
       transition: var(--transition-bounce);
       backdrop-filter: blur(10px);
-      font-size: 1rem;
     }
-    .more-btn:hover { 
-      background: linear-gradient(135deg, var(--primary), var(--accent-dark));
-      color: white;
+
+    .more-btn:hover {
+      background: var(--primary);
       border-color: var(--accent);
-      transform: scale(1.05);
-      box-shadow: var(--shadow-glow);
+      transform: scale(1.03);
     }
+
     .more-btn i { transition: var(--transition-base); }
     .more-btn.active i { transform: rotate(180deg); }
 
     .hidden-cards {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 2.5rem;
+      gap: 2rem;
       max-height: 0;
       opacity: 0;
       overflow: hidden;
-      transition: max-height 0.8s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease, margin 0.4s ease;
-      margin-top: 0;
+      transition: max-height 0.7s ease, opacity 0.4s ease, margin 0.3s ease;
     }
 
     .hidden-cards.show {
-      max-height: 1000px;
+      max-height: 900px;
       opacity: 1;
-      margin-top: 2.5rem;
+      margin-top: 2rem;
     }
 
-    /* Hidden Card Icon Colors */
     .hidden-cards .about-card:nth-child(1) .about-icon { color: #a78bfa; }
     .hidden-cards .about-card:nth-child(2) .about-icon { color: #34d399; }
     .hidden-cards .about-card:nth-child(3) .about-icon { color: #fbbf24; }
     .hidden-cards .about-card:nth-child(4) .about-icon { color: #f472b6; }
 
     /* ============================================
-       PREMIUM SKILLS SECTION - 2x4 Professional Layout
+       SKILLS SECTION
        ============================================ */
-    .skills { 
-      background: var(--bg-primary);
-      position: relative;
-    }
+    .skills { background: var(--bg-primary); }
 
     .skills-content {
       display: grid;
       grid-template-columns: 1.1fr 0.9fr;
-      gap: 5rem;
+      gap: 4rem;
       align-items: start;
     }
 
     .skill-category h3 {
-      font-size: 2rem; 
-      margin-bottom: 2.5rem;
-      display: flex; 
-      align-items: center; 
-      gap: 1rem;
-    }
-    .skill-category h3 i { 
-      color: var(--accent);
-      background: var(--bg-card);
-      padding: 0.8rem;
-      border-radius: 16px;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
     }
 
-    .skill-items { display: flex; flex-direction: column; gap: 2rem; }
-
+    .skill-items { display: flex; flex-direction: column; gap: 1.5rem; }
     .skill-item { width: 100%; }
-    .skill-header { display: flex; justify-content: space-between; margin-bottom: 0.8rem; }
-    .skill-name { 
-      display: flex; 
-      align-items: center; 
-      gap: 0.8rem; 
+
+    .skill-header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.6rem;
+    }
+
+    .skill-name {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
       font-weight: 600;
-      font-size: 1rem;
     }
-    .skill-name i { 
-      color: var(--accent); 
-      font-size: 1.4rem;
-      width: 28px;
-    }
-    .skill-percent { 
-      color: var(--accent); 
-      font-weight: 700;
-      background: var(--bg-card);
-      padding: 0.2rem 0.8rem;
-      border-radius: 20px;
-      font-size: 0.9rem;
-    }
+
+    .skill-name i { color: var(--accent); font-size: 1.3rem; }
+    .skill-percent { color: var(--accent); font-weight: 700; }
 
     .skill-bar { 
       height: 10px; 
@@ -892,43 +797,26 @@
       opacity: 0.5;
     }
 
-    /* PREMIUM Skills Illustration */
-    .skills-illustration {
-      display: flex;
-      flex-direction: column;
-    }
+    .skills-illustration { display: flex; flex-direction: column; }
 
     .skills-image-wrapper {
       position: relative;
       border-radius: var(--radius-lg);
       overflow: hidden;
       border: 1px solid var(--border-accent);
-      box-shadow: var(--shadow-lg);
+      box-shadow: var(--shadow-md);
     }
 
     .skills-image-wrapper img {
       width: 100%;
-      height: auto;
       display: block;
-      transition: var(--transition-slow);
+      transition: transform 0.5s ease;
     }
 
-    .skills-image-wrapper:hover img {
-      transform: scale(1.08);
-    }
+    .skills-image-wrapper:hover img { transform: scale(1.06); }
 
-    .skills-image-wrapper::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, var(--accent-glow), transparent 60%);
-      opacity: 0.3;
-      pointer-events: none;
-    }
-
-    /* PREMIUM Professional Competencies - 2x4 Grid */
     .skills-badge {
-      margin-top: 2.5rem;
+      margin-top: 2rem;
       padding: 2rem;
       background: var(--bg-card);
       border-radius: var(--radius-lg);
@@ -936,111 +824,95 @@
       backdrop-filter: blur(20px);
     }
 
-    .skills-badge h4 { 
-      color: var(--accent); 
-      margin-bottom: 2rem;
-      font-size: 1.5rem;
+    .skills-badge h4 {
+      color: var(--accent);
+      margin-bottom: 1.8rem;
       text-align: center;
+      font-size: 1.4rem;
     }
 
     .professional-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 1.5rem;
+      gap: 1.2rem;
     }
 
     .radial-card {
-      background: var(--bg-elevated); 
-      padding: 1.5rem 1rem; 
+      background: var(--bg-elevated);
+      padding: 1.2rem 0.8rem;
       border-radius: var(--radius-md);
-      text-align: center; 
-      border: 1px solid var(--border-light); 
+      text-align: center;
+      border: 1px solid var(--border-light);
       transition: var(--transition-bounce);
-      backdrop-filter: blur(10px);
     }
 
-    .radial-card:hover { 
-      transform: translateY(-8px); 
-      border-color: var(--accent); 
-      box-shadow: var(--shadow-accent);
+    .radial-card:hover {
+      transform: translateY(-6px);
+      border-color: var(--accent);
     }
 
     .radial-chart {
-      width: 90px; 
-      height: 90px; 
-      margin: 0 auto 1.2rem; 
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 1rem;
       position: relative;
     }
 
     .radial-chart svg { width: 100%; height: 100%; transform: rotate(-90deg); }
-    .radial-chart circle { fill: none; stroke-width: 6; stroke-linecap: round; }
+    .radial-chart circle { fill: none; stroke-width: 5; stroke-linecap: round; }
     .radial-bg { stroke: var(--bg-tertiary); }
-    .radial-fill { 
-      stroke: url(#gradient); 
-      stroke-dasharray: 264; 
-      stroke-dashoffset: 264; 
-      transition: stroke-dashoffset 2s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .radial-value { 
-      position: absolute; 
-      top: 50%; 
-      left: 50%; 
-      transform: translate(-50%, -50%); 
-      font-size: 1.1rem; 
-      font-weight: 700; 
-      color: var(--accent);
-    }
-    .radial-label { 
-      font-weight: 600; 
-      margin-bottom: 0.3rem; 
-      font-size: 0.9rem;
-      color: var(--text-primary);
-    }
-    .radial-desc { 
-      font-size: var(--text-xs); 
-      color: var(--text-muted); 
+    .radial-fill {
+      stroke: url(#skillGradient);
+      stroke-dasharray: 251;
+      stroke-dashoffset: 251;
+      transition: stroke-dashoffset 1.8s ease;
     }
 
-    /* Additional Technologies - PREMIUM Hover */
-    .additional-skills { margin-top: 5rem; }
+    .radial-value {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .radial-label { font-weight: 600; font-size: 0.85rem; margin-bottom: 0.2rem; }
+    .radial-desc { font-size: 0.7rem; color: var(--text-muted); }
+
+    .additional-skills { margin-top: 4rem; }
+
     .skills-cloud {
-      display: flex; 
-      flex-wrap: wrap; 
-      gap: 1.2rem; 
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
       justify-content: center;
     }
 
     .skill-tag {
-      padding: 0.9rem 1.8rem; 
-      background: var(--bg-card); 
+      padding: 0.7rem 1.5rem;
+      background: var(--bg-card);
       border: 1px solid var(--border-light);
-      border-radius: 60px; 
-      color: var(--text-secondary); 
-      font-size: var(--text-sm); 
+      border-radius: 40px;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
       font-weight: 500;
-      transition: var(--transition-bounce); 
-      cursor: help; 
-      position: relative;
-      backdrop-filter: blur(10px);
+      transition: var(--transition-bounce);
+      cursor: help;
       display: flex;
       align-items: center;
-      gap: 0.6rem;
+      gap: 0.5rem;
+      position: relative;
     }
 
-    .skill-tag i { 
-      color: var(--accent); 
-      font-size: 1.2rem;
-    }
-
+    .skill-tag i { color: var(--accent); }
     .skill-tag:hover {
-      background: linear-gradient(135deg, var(--primary), var(--accent-dark));
-      color: white; 
+      background: var(--primary);
+      color: white;
+      transform: scale(1.05);
       border-color: var(--accent);
-      transform: scale(1.08) translateY(-3px);
-      box-shadow: var(--shadow-glow);
     }
-
-    .skill-tag:hover i { color: white; }
 
     .skill-tag[data-tooltip]:hover::after {
       content: attr(data-tooltip);
@@ -1050,557 +922,614 @@
       transform: translateX(-50%);
       background: var(--bg-elevated);
       color: var(--text-primary);
-      padding: 0.6rem 1.2rem;
-      border-radius: 40px;
-      font-size: var(--text-xs);
+      padding: 0.5rem 1rem;
+      border-radius: 30px;
+      font-size: 0.75rem;
       white-space: nowrap;
-      box-shadow: var(--shadow-lg);
+      box-shadow: var(--shadow-md);
       border: 1px solid var(--border-accent);
-      backdrop-filter: blur(10px);
-      font-weight: 500;
+      z-index: 100;
     }
 
     /* ============================================
-       PROJECTS - PREMIUM Cards
+       PROJECTS SECTION
        ============================================ */
     .projects { background: var(--bg-secondary); }
 
     .project-filters {
-      display: flex; 
-      justify-content: center; 
-      gap: 1.2rem; 
-      margin-bottom: 4rem; 
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 3rem;
       flex-wrap: wrap;
     }
 
     .filter-btn {
-      padding: 0.8rem 2.2rem; 
-      background: transparent; 
+      padding: 0.7rem 1.8rem;
+      background: transparent;
       border: 1px solid var(--border-medium);
-      border-radius: 60px; 
-      color: var(--text-secondary); 
-      font-weight: 600; 
+      border-radius: 40px;
+      color: var(--text-secondary);
+      font-weight: 600;
       cursor: pointer;
       transition: var(--transition-bounce);
-      backdrop-filter: blur(10px);
     }
 
-    .filter-btn:hover, .filter-btn.active { 
-      background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-      color: var(--bg-primary); 
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: var(--accent);
+      color: var(--bg-primary);
       border-color: var(--accent);
-      box-shadow: var(--shadow-accent);
-      transform: scale(1.05);
+      transform: scale(1.02);
     }
 
     .projects-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-      gap: 2.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 2rem;
     }
 
     .project-card {
-      background: var(--bg-card); 
-      border-radius: var(--radius-lg); 
+      background: var(--bg-card);
+      border-radius: var(--radius-lg);
       overflow: hidden;
-      border: 1px solid var(--border-light); 
+      border: 1px solid var(--border-light);
       transition: var(--transition-bounce);
-      backdrop-filter: blur(20px);
     }
 
-    .project-card:hover { 
-      transform: translateY(-15px) scale(1.01);
-      box-shadow: var(--shadow-lg); 
+    .project-card:hover {
+      transform: translateY(-12px);
+      box-shadow: var(--shadow-lg);
       border-color: var(--border-accent);
     }
 
-    .project-image { 
-      position: relative; 
-      height: 240px; 
-      overflow: hidden; 
+    .project-image {
+      position: relative;
+      height: 220px;
+      overflow: hidden;
     }
 
-    .project-image img { 
-      width: 100%; 
-      height: 100%; 
-      object-fit: cover; 
-      transition: var(--transition-slow); 
+    .project-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
     }
 
-    .project-card:hover .project-image img { 
-      transform: scale(1.12); 
-    }
+    .project-card:hover .project-image img { transform: scale(1.1); }
 
     .project-overlay {
-      position: absolute; 
+      position: absolute;
       inset: 0;
       background: linear-gradient(to top, var(--bg-overlay), transparent);
-      display: flex; 
-      align-items: flex-end; 
-      padding: 1.8rem;
-      opacity: 0; 
+      display: flex;
+      align-items: flex-end;
+      padding: 1.5rem;
+      opacity: 0;
       transition: var(--transition-base);
     }
 
     .project-card:hover .project-overlay { opacity: 1; }
 
-    .project-tags { display: flex; gap: 0.6rem; flex-wrap: wrap; }
-    .project-tag { 
-      padding: 0.4rem 1.2rem; 
-      background: var(--accent); 
-      color: var(--bg-primary); 
-      border-radius: 60px; 
-      font-size: var(--text-xs); 
+    .project-tags {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .project-tag {
+      padding: 0.3rem 1rem;
+      background: var(--accent);
+      color: var(--bg-primary);
+      border-radius: 30px;
+      font-size: 0.7rem;
       font-weight: 700;
     }
 
-    .project-content { padding: 2rem; }
-    .project-title { 
-      font-size: 1.5rem; 
-      margin-bottom: 1rem; 
-      display: flex; 
-      align-items: center; 
+    .project-content { padding: 1.8rem; }
+
+    .project-title {
+      font-size: 1.3rem;
+      margin-bottom: 0.8rem;
+      display: flex;
+      align-items: center;
       justify-content: space-between;
     }
 
-    .project-links { display: flex; gap: 0.8rem; }
-    .project-links a { 
-      color: var(--accent); 
-      font-size: 1.3rem; 
+    .project-links {
+      display: flex;
+      gap: 0.8rem;
+    }
+
+    .project-links a {
+      color: var(--accent);
+      font-size: 1.2rem;
       opacity: 0;
-      transition: var(--transition-bounce);
+      transition: var(--transition-base);
     }
 
     .project-card:hover .project-links a { opacity: 1; }
-    .project-links a:hover { 
-      transform: scale(1.2); 
-      color: var(--accent-secondary);
-    }
+    .project-links a:hover { transform: scale(1.15); color: var(--accent-secondary); }
 
-    .project-description { 
-      color: var(--text-muted); 
-      font-size: 0.95rem; 
-      margin-bottom: 1.8rem; 
-      line-height: 1.7;
+    .project-description {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
     }
 
     .project-meta {
-      display: flex; 
-      justify-content: space-between; 
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      padding-top: 1.2rem; 
+      padding-top: 1rem;
       border-top: 1px solid var(--border-light);
     }
 
-    .project-stats { display: flex; gap: 1.5rem; }
-    .project-stat { 
-      display: flex; 
-      align-items: center; 
-      gap: 0.4rem; 
-      color: var(--text-muted); 
-      font-size: 0.9rem;
+    .project-stats {
+      display: flex;
+      gap: 1.2rem;
     }
+
+    .project-stat {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
     .project-stat i { color: var(--accent); }
 
     /* ============================================
-       SERVICES - PREMIUM with Contextual Colors
+       SERVICES SECTION
        ============================================ */
     .services { background: var(--bg-primary); }
 
     .services-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 2.5rem;
-      margin-bottom: 2.5rem;
+      gap: 2rem;
+      margin-bottom: 2rem;
     }
 
     .service-card {
-      background: var(--bg-card); 
-      padding: 2.8rem 2.2rem; 
+      background: var(--bg-card);
+      padding: 2.5rem 2rem;
       border-radius: var(--radius-lg);
-      text-align: left; 
-      border: 1px solid var(--border-light); 
+      border: 1px solid var(--border-light);
       transition: var(--transition-bounce);
-      position: relative; 
-      overflow: hidden;
       backdrop-filter: blur(20px);
+      position: relative;
+      overflow: visible;
+      pointer-events: auto;
     }
 
     .service-card::before {
       content: '';
       position: absolute;
-      top: 0; left: 0; width: 100%; height: 100%;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       background: radial-gradient(circle at bottom left, var(--accent-glow), transparent 70%);
       opacity: 0;
       transition: var(--transition-base);
     }
 
-    .service-card:hover::before { opacity: 0.15; }
-    .service-card:hover { 
-      transform: translateY(-12px) scale(1.01);
-      box-shadow: var(--shadow-lg); 
+    .service-card:hover::before { opacity: 0.12; }
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: var(--shadow-lg);
       border-color: var(--border-accent);
     }
 
     .service-icon {
-      width: 70px; 
-      height: 70px; 
-      margin-bottom: 2rem;
+      width: 65px;
+      height: 65px;
+      margin-bottom: 1.8rem;
       background: linear-gradient(135deg, var(--primary-dark), var(--bg-elevated));
-      border-radius: 22px;
-      display: flex; 
-      align-items: center; 
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
       justify-content: center;
-      font-size: 2.4rem; 
+      font-size: 2.2rem;
       transition: var(--transition-bounce);
-      box-shadow: var(--shadow-sm);
     }
 
-    /* Contextual Service Icon Colors */
-    .service-card:nth-child(1) .service-icon { color: #00d4ff; }
-    .service-card:nth-child(2) .service-icon { color: #ff6b6b; }
-    .service-card:nth-child(3) .service-icon { color: #ffd700; }
+    .services-grid .service-card:nth-child(1) .service-icon { color: #00d0ff; }
+    .services-grid .service-card:nth-child(2) .service-icon { color: #ff6b6b; }
+    .services-grid .service-card:nth-child(3) .service-icon { color: #ffc800; }
+    .services-hidden .service-card:nth-child(1) .service-icon { color: #a78bfa; }
+    .services-hidden .service-card:nth-child(2) .service-icon { color: #34d399; }
+    .services-hidden .service-card:nth-child(3) .service-icon { color: #fbbf24; }
+    .services-hidden .service-card:nth-child(4) .service-icon { color: #f472b6; }
+    .services-hidden .service-card:nth-child(5) .service-icon { color: #60a5fa; }
+    .services-hidden .service-card:nth-child(6) .service-icon { color: #f97316; }
+    .services-hidden .service-card:nth-child(7) .service-icon { color: #14b8a6; }
+    .services-hidden .service-card:nth-child(8) .service-icon { color: #ec4899; }
+    .services-hidden .service-card:nth-child(9) .service-icon { color: #8b5cf6; }
+    .services-hidden .service-card:nth-child(10) .service-icon { color: #06b6d4; }
 
-    .service-card:hover .service-icon { 
-      transform: scale(1.1) rotate(-5deg);
-      box-shadow: var(--shadow-accent);
+    .service-card:hover .service-icon {
+      transform: scale(1.08) rotate(-3deg);
     }
 
-    .service-card h3 { 
-      font-size: 1.5rem; 
-      margin-bottom: 1.2rem;
-      font-weight: 700;
+    .service-card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
     }
 
-    .service-card p { 
-      color: var(--text-muted); 
-      font-size: 0.95rem; 
-      margin-bottom: 1.8rem; 
+    .service-card p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+      user-select: text;
+      line-height: 1.6;
+    }
+
+    .service-card h3 {
+      user-select: text;
     }
 
     .service-link {
-      color: var(--accent); 
-      font-weight: 600; 
-      display: inline-flex; 
-      align-items: center; 
-      gap: 0.6rem;
-      transition: var(--transition-fast);
+      color: var(--accent);
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all var(--transition-fast);
+      pointer-events: auto;
+      cursor: pointer;
+      user-select: text;
+      text-decoration: none;
+      position: relative;
     }
-    .service-link i { transition: var(--transition-fast); }
-    .service-link:hover { gap: 1rem; color: var(--accent-secondary); }
+
+    .service-link:hover {
+      gap: 0.8rem;
+      color: var(--accent-secondary);
+      text-shadow: 0 0 10px var(--accent-secondary-glow);
+      transform: translateX(3px);
+    }
 
     .services-hidden {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 2.5rem;
+      gap: 2rem;
       max-height: 0;
       opacity: 0;
       overflow: hidden;
-      transition: max-height 1s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease, margin 0.4s ease;
+      transition: max-height 0.8s ease, opacity 0.4s ease;
     }
 
     .services-hidden.show {
-      max-height: 1800px;
+      max-height: 1600px;
       opacity: 1;
-      margin-top: 2.5rem;
+      margin-top: 2rem;
     }
 
-    /* Hidden Service Icon Colors */
-    .services-hidden .service-card:nth-child(1) .service-icon { color: #34d399; }
-    .services-hidden .service-card:nth-child(2) .service-icon { color: #a78bfa; }
-    .services-hidden .service-card:nth-child(3) .service-icon { color: #fbbf24; }
-    .services-hidden .service-card:nth-child(4) .service-icon { color: #f472b6; }
-    .services-hidden .service-card:nth-child(5) .service-icon { color: #60a5fa; }
-    .services-hidden .service-card:nth-child(6) .service-icon { color: #c084fc; }
-    .services-hidden .service-card:nth-child(7) .service-icon { color: #fb923c; }
-    .services-hidden .service-card:nth-child(8) .service-icon { color: #4ade80; }
-    .services-hidden .service-card:nth-child(9) .service-icon { color: #f87171; }
-    .services-hidden .service-card:nth-child(10) .service-icon { color: #2dd4bf; }
-
     /* ============================================
-       CONTACT - PREMIUM Form
+       CONTACT SECTION
        ============================================ */
     .contact { background: var(--bg-secondary); }
 
     .contact-container {
       display: grid;
       grid-template-columns: 1fr 1.2fr;
-      gap: 5rem;
+      gap: 4rem;
     }
 
-    .contact-info h3 { 
-      font-size: 2.2rem; 
+    .contact-info h3 {
+      font-size: 2rem;
       margin-bottom: 1.5rem;
-      background: linear-gradient(135deg, var(--text-primary), var(--accent));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
     }
 
-    .contact-info p { color: var(--text-secondary); margin-bottom: 3rem; font-size: 1.1rem; }
+    .contact-info p {
+      color: var(--text-secondary);
+      margin-bottom: 2.5rem;
+    }
 
-    .contact-details { display: flex; flex-direction: column; gap: 2rem; margin-bottom: 3rem; }
-    .contact-item { display: flex; align-items: flex-start; gap: 1.5rem; }
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      gap: 1.8rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.2rem;
+    }
+
     .contact-item i {
-      font-size: 1.6rem; 
-      color: var(--accent); 
+      font-size: 1.4rem;
+      color: var(--accent);
       background: var(--bg-card);
-      width: 55px; 
-      height: 55px; 
-      display: flex; 
-      align-items: center; 
-      justify-content: center; 
-      border-radius: 18px;
-      backdrop-filter: blur(10px);
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 16px;
       border: 1px solid var(--border-light);
     }
 
-    .contact-item h4 { font-size: 1.2rem; margin-bottom: 0.3rem; }
-    .contact-item p, .contact-item a { color: var(--text-muted); font-size: 1rem; }
+    .contact-item h4 {
+      font-size: 1.1rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .contact-item p,
+    .contact-item a {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
     .contact-item a:hover { color: var(--accent); }
 
-    .contact-social { display: flex; gap: 1.2rem; }
-    .contact-social .social-link { width: 50px; height: 50px; border-radius: 16px; }
+    .contact-social {
+      display: flex;
+      gap: 1rem;
+    }
 
     .contact-form {
-      background: var(--bg-card); 
-      padding: 3rem; 
+      background: var(--bg-card);
+      padding: 2.5rem;
       border-radius: var(--radius-lg);
       border: 1px solid var(--border-light);
       backdrop-filter: blur(20px);
     }
 
-    .form-group { margin-bottom: 2rem; position: relative; }
-    .form-group input, .form-group textarea {
-      width: 100%; 
-      padding: 1.2rem 1.5rem; 
+    .form-group {
+      margin-bottom: 1.8rem;
+      position: relative;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 1.1rem 1.2rem;
       background: var(--bg-primary);
-      border: 1.5px solid var(--border-light); 
+      border: 1.5px solid var(--border-light);
       border-radius: var(--radius-md);
-      color: var(--text-primary); 
-      font-size: 1rem; 
+      color: var(--text-primary);
+      font-size: 0.95rem;
       font-family: inherit;
       transition: var(--transition-base);
     }
 
-    .form-group input:focus, .form-group textarea:focus {
-      outline: none; 
-      border-color: var(--accent); 
-      box-shadow: 0 0 0 4px var(--accent-glow);
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
     }
 
     .form-group label {
-      position: absolute; 
-      left: 1.5rem; 
-      top: 1.2rem; 
+      position: absolute;
+      left: 1.2rem;
+      top: 1.1rem;
       color: var(--text-muted);
-      transition: var(--transition-fast); 
-      pointer-events: none; 
-      background: transparent; 
-      padding: 0 0.4rem;
-      font-weight: 500;
+      transition: var(--transition-fast);
+      pointer-events: none;
+      background: transparent;
     }
 
     .form-group input:focus ~ label,
     .form-group input:not(:placeholder-shown) ~ label,
     .form-group textarea:focus ~ label,
     .form-group textarea:not(:placeholder-shown) ~ label {
-      top: -0.7rem; 
-      left: 1.2rem; 
-      font-size: 0.8rem; 
-      background: var(--bg-card); 
+      top: -0.6rem;
+      left: 1rem;
+      font-size: 0.75rem;
+      background: var(--bg-card);
       color: var(--accent);
-      font-weight: 600;
     }
 
-    .form-group input::placeholder, .form-group textarea::placeholder { opacity: 0; }
+    .form-group input::placeholder,
+    .form-group textarea::placeholder { opacity: 0; }
 
     .form-submit {
-      width: 100%; 
-      padding: 1.2rem; 
+      width: 100%;
+      padding: 1.1rem;
       background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-      color: var(--bg-primary); 
-      border: none; 
-      border-radius: 60px; 
-      font-weight: 700; 
-      font-size: 1.1rem;
-      cursor: pointer; 
+      color: var(--bg-primary);
+      border: none;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
       transition: var(--transition-bounce);
-      display: flex; 
-      align-items: center; 
-      justify-content: center; 
-      gap: 1rem;
+    }
+
+    .form-submit:hover {
+      transform: translateY(-3px);
       box-shadow: var(--shadow-accent);
     }
 
-    .form-submit:hover { 
-      transform: translateY(-5px);
-      box-shadow: 0 20px 40px var(--accent-glow);
-    }
-
     /* ============================================
-       PREMIUM FOOTER
+       FOOTER
        ============================================ */
     .footer {
-      background: var(--bg-primary); 
-      padding: 3rem var(--container-padding);
+      background: var(--bg-primary);
+      padding: 2.5rem var(--container-padding);
       border-top: 1px solid var(--border-light);
     }
 
-    .footer-content { 
-      display: flex; 
-      justify-content: space-between; 
-      align-items: center; 
-      flex-wrap: wrap; 
-      gap: 2rem; 
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
     }
 
-    .footer-copyright { color: var(--text-muted); font-size: 1rem; }
-    .footer-copyright a { 
-      color: var(--accent); 
-      font-weight: 700; 
-      cursor: pointer;
-      background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    .footer-copyright a:hover {
-      filter: brightness(1.2);
-    }
-
-    .footer-links { display: flex; gap: 2.5rem; }
-    .footer-links a { 
-      color: var(--text-muted); 
-      font-size: 0.95rem; 
-      font-weight: 500;
-      transition: var(--transition-fast); 
-    }
+    .footer-copyright { color: var(--text-muted); }
+    .footer-copyright a { color: var(--accent); font-weight: 700; cursor: pointer; }
+    .footer-links { display: flex; gap: 2rem; }
+    .footer-links a { color: var(--text-muted); font-size: 0.9rem; transition: var(--transition-fast); }
     .footer-links a:hover { color: var(--accent); }
 
-    /* Back to Top PREMIUM */
     .back-to-top {
-      position: fixed; 
-      bottom: 2.5rem; 
-      right: 2.5rem; 
-      width: 55px; 
-      height: 55px;
-      background: linear-gradient(135deg, var(--accent), var(--accent-dark));
-      color: var(--bg-primary); 
-      border-radius: 20px;
-      display: flex; 
-      align-items: center; 
-      justify-content: center; 
-      font-size: 1.8rem;
-      cursor: pointer; 
-      opacity: 0; 
-      visibility: hidden; 
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 50px;
+      height: 50px;
+      background: var(--accent);
+      color: var(--bg-primary);
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
       transition: var(--transition-bounce);
-      box-shadow: var(--shadow-accent); 
-      z-index: 999; 
+      box-shadow: var(--shadow-accent);
+      z-index: 999;
       border: none;
     }
 
     .back-to-top.show { opacity: 1; visibility: visible; }
-    .back-to-top:hover { 
-      transform: translateY(-8px) scale(1.05);
-      box-shadow: 0 0 40px var(--accent-glow);
-    }
+    .back-to-top:hover { transform: translateY(-6px); }
 
     /* ============================================
-       GALAXY GAME OVERLAY - PREMIUM Animation
+       MASSIVE GAME OPENING EFFECTS
        ============================================ */
-    .galaxy-overlay {
+    .game-effects-container {
       position: fixed;
       inset: 0;
-      background: radial-gradient(circle at center, var(--accent-glow) 0%, var(--bg-primary) 100%);
-      z-index: 10000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.8s cubic-bezier(0.65, 0, 0.35, 1), visibility 0.8s;
-      backdrop-filter: blur(30px);
+      pointer-events: none;
+      z-index: 9999;
+      overflow: hidden;
     }
 
-    .galaxy-overlay.active {
-      opacity: 1;
-      visibility: visible;
+    /* Bombs */
+    .bomb {
+      position: absolute;
+      font-size: 3rem;
+      color: #ff4444;
+      filter: drop-shadow(0 0 20px #ff4444);
+      animation: bombFloat 3s ease-in-out infinite;
+      pointer-events: none;
     }
 
-    .galaxy-content {
-      text-align: center;
-      animation: galaxyExpand 2s ease-out forwards;
+    @keyframes bombFloat {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      50% { transform: translateY(-40px) rotate(180deg); }
     }
 
-    .galaxy-icon {
-      font-size: 8rem;
-      color: var(--accent);
-      animation: galaxySpin 2s ease-in-out infinite;
-      filter: drop-shadow(0 0 50px var(--accent-glow));
+    /* Helicopters */
+    .helicopter {
+      position: absolute;
+      font-size: 3.5rem;
+      color: var(--accent-secondary);
+      filter: drop-shadow(0 0 25px var(--accent-secondary));
+      animation: helicopterFly 2000ms linear infinite;
+      pointer-events: none;
     }
 
-    .galaxy-text {
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--text-primary);
-      margin-top: 2rem;
-      opacity: 0;
-      animation: fadeIn 1s ease 0.5s forwards;
+    @keyframes helicopterFly {
+      0% { transform: translateX(-100px) translateY(50px) rotate(-10deg); }
+      100% { transform: translateX(calc(100vw + 100px)) translateY(-80px) rotate(10deg); }
     }
 
-    @keyframes galaxyExpand {
-      0% { transform: scale(0.1); opacity: 0; }
-      50% { transform: scale(1.2); opacity: 0.8; }
-      100% { transform: scale(1); opacity: 1; }
+    /* SciFi Rings */
+    .sci-fi-ring {
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid var(--accent);
+      opacity: 0.4;
+      animation: ringPulse 2.5s ease-out infinite;
+      pointer-events: none;
     }
 
-    @keyframes galaxySpin {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
+    @keyframes ringPulse {
+      0% { transform: scale(0.3); opacity: 0.6; }
+      100% { transform: scale(2.5); opacity: 0; }
     }
 
-    @keyframes fadeIn {
-      to { opacity: 1; }
+    /* Stars / Particles */
+    .star {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: white;
+      border-radius: 50%;
+      box-shadow: 0 0 15px white;
+      animation: starTwinkle 1.5s ease-in-out infinite;
+      pointer-events: none;
+    }
+
+    @keyframes starTwinkle {
+      0%, 100% { opacity: 0.2; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.5); }
+    }
+
+    /* Laser beams */
+    .laser {
+      position: absolute;
+      width: 2px;
+      height: 100px;
+      background: linear-gradient(to bottom, var(--accent), transparent);
+      box-shadow: 0 0 30px var(--accent);
+      animation: laserShoot 1s ease-out forwards;
+      pointer-events: none;
+    }
+
+    @keyframes laserShoot {
+      0% { transform: translateY(0) scaleY(0); opacity: 1; }
+      100% { transform: translateY(-200px) scaleY(1); opacity: 0; }
+    }
+
+    /* Explosion effect */
+    .explosion {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      background: radial-gradient(circle, #ffaa00, #ff4400, transparent);
+      border-radius: 50%;
+      animation: explode 0.8s ease-out forwards;
+      pointer-events: none;
+    }
+
+    @keyframes explode {
+      0% { transform: scale(0); opacity: 1; }
+      100% { transform: scale(4); opacity: 0; }
     }
 
     /* Game Boxes */
-    .game-box-container { 
-      position: fixed; 
-      inset: 0; 
-      pointer-events: none; 
-      z-index: 10001; 
-    }
-
-    .sequential-box {
-      position: absolute; 
-      width: 100px; 
-      height: 100px; 
-      border-radius: 30px;
-      display: flex; 
-      justify-content: center; 
-      align-items: center; 
+    .game-box {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       cursor: pointer;
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); 
-      z-index: 10002;
-      transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55); 
-      pointer-events: auto;
-      animation: boxAppear 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
-      backdrop-filter: blur(10px);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+      z-index: 10000;
+      transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      animation: boxAppear 0.6s ease-out;
+      backdrop-filter: blur(15px);
       border: 2px solid var(--border-accent);
+      pointer-events: auto;
     }
 
-    .sequential-box:hover { 
-      transform: scale(1.15) rotate(5deg);
-      box-shadow: 0 0 50px var(--accent-glow);
+    .game-box:hover {
+      transform: scale(1.2) rotate(5deg);
+      box-shadow: 0 0 60px var(--accent-glow);
     }
 
-    .sequential-box i { 
-      color: white; 
+    .game-box i {
       font-size: 3rem;
-      filter: drop-shadow(0 0 10px currentColor);
+      filter: drop-shadow(0 0 15px currentColor);
     }
 
     @keyframes boxAppear {
@@ -1608,141 +1537,138 @@
       100% { transform: scale(1) rotate(0deg); opacity: 1; }
     }
 
-    /* ============================================
-       ANIMATIONS
-       ============================================ */
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(40px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes blink {
-      0%, 50% { opacity: 1; }
-      51%, 100% { opacity: 0; }
-    }
-
-    .animate-on-scroll {
+    /* Galaxy Portal Opening */
+    .portal-overlay {
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at center, var(--accent) 0%, var(--bg-primary) 100%);
+      z-index: 9998;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       opacity: 0;
-      transform: translateY(40px);
-      transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      visibility: hidden;
+      transition: opacity 0.8s ease, visibility 0.8s ease;
+      pointer-events: none;
     }
 
-    .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+    .portal-overlay.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .portal-content {
+      text-align: center;
+      animation: portalExpand 1.5s ease-out forwards;
+    }
+
+    .portal-icon {
+      font-size: 6rem;
+      color: white;
+      filter: drop-shadow(0 0 50px var(--accent));
+      animation: portalSpin 2s linear infinite;
+    }
+
+    @keyframes portalExpand {
+      0% { transform: scale(0.1); opacity: 0; }
+      50% { transform: scale(1.3); opacity: 0.9; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    @keyframes portalSpin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
 
     /* Loader */
     .loader {
-      position: fixed; 
+      position: fixed;
       inset: 0;
-      background: var(--bg-primary); 
-      display: flex; 
-      align-items: center; 
+      background: var(--bg-primary);
+      display: flex;
+      align-items: center;
       justify-content: center;
-      z-index: 9999; 
-      transition: opacity 0.6s ease, visibility 0.6s ease;
+      z-index: 9997;
+      transition: opacity 0.5s ease, visibility 0.5s ease;
     }
 
     .loader.hidden { opacity: 0; visibility: hidden; }
-    .loader-content { text-align: center; }
+
     .loader-spinner {
-      width: 70px; 
-      height: 70px; 
+      width: 70px;
+      height: 70px;
       border: 3px solid var(--border-light);
-      border-top-color: var(--accent); 
+      border-top-color: var(--accent);
       border-radius: 50%;
-      animation: spin 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite; 
-      margin-bottom: 2rem;
-      box-shadow: var(--shadow-glow);
+      animation: spin 1.2s linear infinite;
     }
 
     @keyframes spin { to { transform: rotate(360deg); } }
-    .loader-text { 
-      color: var(--text-secondary); 
-      font-size: var(--text-xl);
-      font-weight: 500;
-    }
-    .loader-text span { 
-      color: var(--accent); 
-      font-weight: 700;
-    }
 
     /* ============================================
-       RESPONSIVE - PREMIUM Mobile
+       RESPONSIVE DESIGN
        ============================================ */
-    @media (max-width: 1400px) {
-      .professional-grid { grid-template-columns: repeat(4, 1fr); }
-    }
-
     @media (max-width: 1200px) {
-      :root { --container-padding: 4%; }
+      .home-bg-image { width: 45%; }
       .about-grid, .services-grid, .hidden-cards, .services-hidden { grid-template-columns: repeat(2, 1fr); }
       .professional-grid { grid-template-columns: repeat(2, 1fr); }
-      .skills-content { grid-template-columns: 1fr; gap: 4rem; }
+      .skills-content { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 992px) {
+      .home-bg-image { width: 40%; opacity: 0.5; }
       .contact-container { grid-template-columns: 1fr; }
-      .home-name { font-size: clamp(3.5rem, 8vw, 5rem); }
     }
 
     @media (max-width: 768px) {
       #menu-icon { display: block; }
       .navbar {
-        position: fixed; 
-        top: 0; 
-        right: -100%; 
-        width: 300px; 
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 280px;
         height: 100vh;
-        background: var(--bg-overlay); 
-        flex-direction: column; 
+        background: var(--bg-overlay);
+        flex-direction: column;
         align-items: flex-start;
-        padding: 6rem 2rem; 
+        padding: 5rem 2rem;
         transition: right var(--transition-base);
-        box-shadow: var(--shadow-lg); 
+        box-shadow: var(--shadow-lg);
         border-left: 1px solid var(--border-light);
         backdrop-filter: blur(30px);
       }
       .navbar.active { right: 0; }
-      .nav-links { flex-direction: column; width: 100%; gap: 1.5rem; }
-      .nav-link { padding: 0.8rem 0; width: 100%; font-size: 1.1rem; }
-      .theme-switcher { margin-left: 0; margin-top: 1.5rem; width: 100%; }
+      .nav-links { flex-direction: column; width: 100%; gap: 1.2rem; }
+      .nav-link { width: 100%; }
+      .theme-switcher { margin-left: 0; margin-top: 1rem; width: 100%; }
       .theme-btn { width: 100%; justify-content: center; }
-      .theme-dropdown { position: static; margin-top: 0.8rem; opacity: 1; visibility: visible; transform: none; width: 100%; }
+      .theme-dropdown { position: static; opacity: 1; visibility: visible; transform: none; width: 100%; margin-top: 0.5rem; }
+
+      .home-bg-image { display: none; }
+      .home-bg-overlay { display: none; }
+      .home-content { max-width: 100%; text-align: center; }
+      .home-cta { justify-content: center; }
+      .home-social { justify-content: center; }
+      .home-stats { justify-content: center; }
 
       .about-grid, .services-grid, .hidden-cards, .services-hidden { grid-template-columns: 1fr; }
       .professional-grid { grid-template-columns: repeat(2, 1fr); }
-      .home-stats { flex-wrap: wrap; gap: 2rem; }
-      .projects-grid { grid-template-columns: 1fr; }
-      .footer-content { flex-direction: column; text-align: center; }
-      .footer-links { justify-content: center; flex-wrap: wrap; }
-      .home-cta { flex-direction: column; align-items: flex-start; }
-      .btn { width: 100%; }
     }
 
     @media (max-width: 480px) {
       .professional-grid { grid-template-columns: 1fr; }
-      .home-name { font-size: 2.8rem; }
-      .typed-wrapper { font-size: 1.5rem; }
-      .home-social { flex-wrap: wrap; }
-      .section-title { font-size: 2.2rem; }
-    }
-
-    /* Utility Classes */
-    .text-accent { color: var(--accent); }
-    .text-muted { color: var(--text-muted); }
-    .gradient-text {
-      background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      .home-name { font-size: 2.5rem; }
+      .btn { width: 100%; }
+      .home-cta { width: 100%; }
     }
   </style>
-  
-  <!-- SVG Gradient Definition for Radial Charts -->
+
+  <!-- SVG Gradient for Radial Charts -->
   <svg width="0" height="0">
     <defs>
-      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#00d4ff" />
-        <stop offset="100%" stop-color="#ffd700" />
+      <linearGradient id="skillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#00d0ff" />
+        <stop offset="100%" stop-color="#ffc800" />
       </linearGradient>
     </defs>
   </svg>
@@ -1750,19 +1676,19 @@
 <body>
   <!-- Loader -->
   <div class="loader" id="loader">
-    <div class="loader-content">
-      <div class="loader-spinner"></div>
-      <div class="loader-text">Crafting <span>Brand New</span> Experience...</div>
+    <div class="loader-spinner"></div>
+  </div>
+
+  <!-- Portal Overlay for Game Opening -->
+  <div class="portal-overlay" id="portalOverlay">
+    <div class="portal-content">
+      <div class="portal-icon"><i class='bx bx-game'></i></div>
+      <div style="color: white; font-size: 2rem; font-weight: 700; margin-top: 1.5rem;">Entering Game Space ...</div>
     </div>
   </div>
 
-  <!-- Galaxy Game Overlay -->
-  <div class="galaxy-overlay" id="galaxyOverlay">
-    <div class="galaxy-content">
-      <div class="galaxy-icon"><i class='bx bx-game'></i></div>
-      <div class="galaxy-text">Entering Game Space...</div>
-    </div>
-  </div>
+  <!-- Game Effects Container -->
+  <div class="game-effects-container" id="gameEffects"></div>
 
   <!-- Header -->
   <header class="header" id="header">
@@ -1785,22 +1711,25 @@
         </div>
         <div class="theme-dropdown">
           <button class="theme-option active" data-theme="default"><span class="color-dot blue"></span> Blue</button>
-          <button class="theme-option" data-theme="yellow"><span class="color-dot yellow"></span> Yellow Gold</button>
+          <button class="theme-option" data-theme="yellow"><span class="color-dot yellow"></span> Yellow</button>
           <button class="theme-option" data-theme="grey"><span class="color-dot grey"></span> Grey Scale</button>
-          <button class="theme-option" data-theme="light"><span class="color-dot" style="background: #0088cc;"></span> Light</button>
+          <button class="theme-option" data-theme="light"><span class="color-dot" style="background:#0088cc;"></span> Light</button>
         </div>
       </div>
     </nav>
   </header>
 
   <main>
-    <!-- Home Section -->
+    <!-- Home Section - Left Text, Right Fixed Image -->
     <section class="home" id="home">
-      <div class="home-overlay"></div>
-      <div class="galaxy-bg"></div>
+      <div class="home-bg-image"></div>
+      <div class="galaxy-overlay-home"></div>
       <div class="container">
         <div class="home-content">
-          <div class="home-greeting"><i class='bx bx-code-alt'></i><span>Hello, I'm</span></div>
+          <div class="home-greeting">
+            <i class='bx bx-code-alt'></i>
+            <span>Hello, I'm</span>
+          </div>
           <h1 class="home-name">Sabari <span class="accent">Poornesh S</span></h1>
           <div class="typed-wrapper">
             <span class="typed-text" id="typed-strings"></span>
@@ -1822,9 +1751,18 @@
             <a href="https://x.com/SabariPoornesh" target="_blank" class="social-link"><i class='bx bxl-twitter'></i></a>
           </div>
           <div class="home-stats">
-            <div class="stat-item"><div class="stat-number">15+</div><div class="stat-label">Projects</div></div>
-            <div class="stat-item"><div class="stat-number">10+</div><div class="stat-label">Technologies</div></div>
-            <div class="stat-item"><div class="stat-number">3+</div><div class="stat-label">Years</div></div>
+            <div class="stat-item">
+              <div class="stat-number">15+</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Technologies</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Years</div>
+            </div>
           </div>
         </div>
       </div>
@@ -1835,61 +1773,59 @@
       <div class="container">
         <div class="section-header animate-on-scroll">
           <h2 class="section-title">About <span>Me</span></h2>
-          <div class="premium-divider"></div>
+          <div class="divider"></div>
           <p class="section-subtitle">Automation & Robotics Engineer with multidisciplinary expertise</p>
         </div>
 
         <div class="about-grid" id="aboutGrid">
           <div class="about-card animate-on-scroll">
-            <div class="about-icon"><i class='bx bx-cube'></i></div>
-            <h3>3D Model Developer</h3>
-            <p>Proficient in Fusion 360 and AutoCAD for designing precise mechanical components, assemblies, and robotic structures with manufacturability in mind.</p>
-            <a href="#" class="about-link">Learn More <i class='bx bx-right-arrow-alt'></i></a>
+        <div class="about-icon"><i class='bx bxl-sketch'></i></div>
+        <h3>3D Model Developer</h3>
+        <p>Proficient in Fusion 360 and AutoCAD for designing precise mechanical components and robotic structures.</p>
+        <a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" class="about-link" style="cursor: pointer; pointer-events: auto;">Learn More <i class='bx bx-right-arrow-alt'></i></a>
           </div>
           <div class="about-card animate-on-scroll">
-            <div class="about-icon"><i class='bx bx-microchip'></i></div>
-            <h3>Robotics & Automation</h3>
-            <p>Experienced in developing software for robotics including embedded programming, sensor integration, and control algorithms for autonomous systems.</p>
-            <a href="#" class="about-link">Learn More <i class='bx bx-right-arrow-alt'></i></a>
+        <div class="about-icon"><i class='bx bx-bot'></i></div>
+        <h3>Robotics & Automation</h3>
+        <p>Experienced in embedded programming, sensor integration, and control algorithms for autonomous systems.</p>
+        <a href="https://www.toptal.com/robotics/programming-a-robot-an-introductory-tutorial" target="_blank" class="about-link" style="cursor: pointer; pointer-events: auto;">Learn More <i class='bx bx-right-arrow-alt'></i></a>
           </div>
           <div class="about-card animate-on-scroll">
-            <div class="about-icon"><i class='bx bx-brain'></i></div>
-            <h3>Problem Solver</h3>
-            <p>Analytical approach to debugging and optimization. Skilled in writing clean, maintainable code for complex engineering challenges.</p>
-            <a href="#" class="about-link">Learn More <i class='bx bx-right-arrow-alt'></i></a>
+        <div class="about-icon"><i class='bx bx-brain'></i></div>
+        <h3>Problem Solver</h3>
+        <p>Analytical approach to debugging and optimization. Skilled in clean, maintainable code for complex challenges.</p>
+        <a href="https://in.indeed.com/career-advice/resumes-cover-letters/problem-solving-skills" target="_blank" class="about-link" style="cursor: pointer; pointer-events: auto;">Learn More <i class='bx bx-right-arrow-alt'></i></a>
           </div>
         </div>
 
         <div class="more-btn-container animate-on-scroll">
-          <button class="more-btn" id="aboutMoreBtn">
-            Show More <i class='bx bx-chevron-down'></i>
-          </button>
+          <button class="more-btn" id="aboutMoreBtn">Show More <i class='bx bx-chevron-down'></i></button>
         </div>
 
         <div class="hidden-cards" id="aboutHiddenCards">
           <div class="about-card">
-            <div class="about-icon"><i class='bx bx-analyse'></i></div>
-            <h3>Critical Thinker</h3>
-            <p>Systematic approach to problem decomposition and solution validation. Experienced in root cause analysis and design optimization.</p>
-            <a href="#" class="about-link">Learn More <i class='bx bx-right-arrow-alt'></i></a>
+        <div class="about-icon"><i class='bx bx-analyse'></i></div>
+        <h3>Critical Thinker</h3>
+        <p>Systematic approach to problem decomposition and solution validation.</p>
+        <a href="https://www.geeksforgeeks.org/what-is-critical-thinking/" target="_blank" class="about-link" style="cursor: pointer; pointer-events: auto;">Learn More <i class='bx bx-right-arrow-alt'></i></a>
           </div>
           <div class="about-card">
-            <div class="about-icon"><i class='bx bx-bot'></i></div>
-            <h3>ROS2 Programmer</h3>
-            <p>Developing robotic applications using ROS2 framework. Experienced in node communication, topic publishing, and service-based architectures.</p>
-            <a href="#" class="about-link">Learn More <i class='bx bx-right-arrow-alt'></i></a>
+        <div class="about-icon"><i class='bx bxl-codepen'></i></div>
+        <h3>ROS2 Programmer</h3>
+        <p>Developing robotic applications using ROS2 framework and node communication.</p>
+        <a href="https://docs.ros.org/en/humble/index.html" target="_blank" class="about-link" style="cursor: pointer; pointer-events: auto;">Learn More <i class='bx bx-right-arrow-alt'></i></a>
           </div>
           <div class="about-card">
-            <div class="about-icon"><i class='bx bx-chip'></i></div>
-            <h3>Embedded Systems</h3>
-            <p>Designing firmware for microcontrollers including ESP32, Arduino. Proficient in I2C, SPI, and real-time control applications.</p>
-            <a href="#" class="about-link">Learn More <i class='bx bx-right-arrow-alt'></i></a>
+        <div class="about-icon"><i class='bx bx-chip'></i></div>
+        <h3>Embedded Systems</h3>
+        <p>Designing firmware for ESP32, Arduino. Proficient in I2C, SPI, and real-time control.</p>
+        <a href="https://www.arduino.cc/en/Tutorial/HomePage" target="_blank" class="about-link" style="cursor: pointer; pointer-events: auto;">Learn More <i class='bx bx-right-arrow-alt'></i></a>
           </div>
           <div class="about-card">
-            <div class="about-icon"><i class='bx bx-line-chart'></i></div>
-            <h3>Control Systems</h3>
-            <p>Implementation of PID controllers, state-space models, and feedback loops for precise motion control and automation.</p>
-            <a href="#" class="about-link">Learn More <i class='bx bx-right-arrow-alt'></i></a>
+        <div class="about-icon"><i class='bx bx-line-chart'></i></div>
+        <h3>Control Systems</h3>
+        <p>Implementation of PID controllers and feedback loops for precise motion control.</p>
+        <a href="https://www.tutorialspoint.com/control_systems/index.htm" target="_blank" class="about-link" style="cursor: pointer; pointer-events: auto;">Learn More <i class='bx bx-right-arrow-alt'></i></a>
           </div>
         </div>
       </div>
@@ -1900,7 +1836,7 @@
       <div class="container">
         <div class="section-header animate-on-scroll">
           <h2 class="section-title">My <span>Skills</span></h2>
-          <div class="premium-divider"></div>
+          <div class="divider"></div>
           <p class="section-subtitle">Technical expertise and professional competencies</p>
         </div>
 
@@ -1915,20 +1851,20 @@
               <div class="skill-item"><div class="skill-header"><span class="skill-name"><i class='bx bx-code'></i> C</span><span class="skill-percent">88%</span></div><div class="skill-bar"><div class="skill-progress" data-width="88"></div></div></div>
               <div class="skill-item"><div class="skill-header"><span class="skill-name"><i class='bx bxl-c-plus-plus'></i> C++</span><span class="skill-percent">85%</span></div><div class="skill-bar"><div class="skill-progress" data-width="85"></div></div></div>
               <div class="skill-item"><div class="skill-header"><span class="skill-name"><i class='bx bx-microchip'></i> Arduino UNO</span><span class="skill-percent">50%</span></div><div class="skill-bar"><div class="skill-progress" data-width="50"></div></div></div>
-            </div>
-            <div class="more-btn-container" style="text-align: left; margin-top: 2rem;">
-              <button class="more-btn" id="skillsMoreBtn" style="padding: 0.8rem 2rem;">
-                More Skills <i class='bx bx-chevron-down'></i>
-              </button>
-            </div>
-            <div class="skill-items hidden-skills" id="skillsHiddenContainer" style="max-height: 0; opacity: 0; overflow: hidden; transition: max-height 0.8s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s ease;">
-              <div class="skill-item" style="margin-top: 1.5rem;"><div class="skill-header"><span class="skill-name"><i class='bx bx-chip'></i> ESP32</span><span class="skill-percent">40%</span></div><div class="skill-bar"><div class="skill-progress" data-width="40"></div></div></div>
+              <div class="skill-item" style="margin-top:1rem;"><div class="skill-header"><span class="skill-name"><i class='bx bx-chip'></i> ESP32</span><span class="skill-percent">40%</span></div><div class="skill-bar"><div class="skill-progress" data-width="40"></div></div></div>
               <div class="skill-item"><div class="skill-header"><span class="skill-name"><i class='bx bxl-flask'></i> Flask</span><span class="skill-percent">80%</span></div><div class="skill-bar"><div class="skill-progress" data-width="80"></div></div></div>
               <div class="skill-item"><div class="skill-header"><span class="skill-name"><i class='bx bx-data'></i> StreamLit</span><span class="skill-percent">70%</span></div><div class="skill-bar"><div class="skill-progress" data-width="70"></div></div></div>
               <div class="skill-item"><div class="skill-header"><span class="skill-name"><i class='bx bx-line-chart'></i> MatPlotLib</span><span class="skill-percent">75%</span></div><div class="skill-bar"><div class="skill-progress" data-width="75"></div></div></div>
               <div class="skill-item"><div class="skill-header"><span class="skill-name"><i class='bx bx-math'></i> SciPy</span><span class="skill-percent">65%</span></div><div class="skill-bar"><div class="skill-progress" data-width="65"></div></div></div>
               <div class="skill-item"><div class="skill-header"><span class="skill-name"><i class='bx bx-calculator'></i> MATLAB</span><span class="skill-percent">90%</span></div><div class="skill-bar"><div class="skill-progress" data-width="90"></div></div></div>
             </div>
+            <div class="more-btn-container" style="text-align: left; margin-top: 1.5rem;">
+              <button class="more-btn" id="skillsMoreBtn" style="padding: 0.7rem 1.8rem;">More Skills <i class='bx bx-chevron-down'></i></button>
+            </div>
+            <div class="skill-items hidden-skills" id="skillsHiddenContainer" style="max-height:0;opacity:0;overflow:hidden;transition:max-height 0.7s ease, opacity 0.4s ease; margin-top: 0;">
+              <div class="skill-item" style="margin-top:1rem;"><div class="skill-header"><span class="skill-name"><i class='bx bx-chip'></i> PID</span><span class="skill-percent">30%</span></div><div class="skill-bar"><div class="skill-progress" data-width="40"></div></div></div>
+            </div>
+
           </div>
 
           <div class="skills-illustration animate-on-scroll">
@@ -1938,34 +1874,32 @@
             <div class="skills-badge">
               <h4>Professional Competencies</h4>
               <div class="professional-grid">
-                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="42"></circle><circle class="radial-fill" cx="50" cy="50" r="42" data-percent="90"></circle></svg><div class="radial-value">90%</div></div><div class="radial-label">Creativity</div><div class="radial-desc">Innovation</div></div>
-                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="42"></circle><circle class="radial-fill" cx="50" cy="50" r="42" data-percent="78"></circle></svg><div class="radial-value">78%</div></div><div class="radial-label">Problem Solving</div><div class="radial-desc">Analytical</div></div>
-                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="42"></circle><circle class="radial-fill" cx="50" cy="50" r="42" data-percent="85"></circle></svg><div class="radial-value">85%</div></div><div class="radial-label">Teamwork</div><div class="radial-desc">Collaborative</div></div>
-                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="42"></circle><circle class="radial-fill" cx="50" cy="50" r="42" data-percent="70"></circle></svg><div class="radial-value">70%</div></div><div class="radial-label">Communication</div><div class="radial-desc">Clear</div></div>
-                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="42"></circle><circle class="radial-fill" cx="50" cy="50" r="42" data-percent="82"></circle></svg><div class="radial-value">82%</div></div><div class="radial-label">Adaptability</div><div class="radial-desc">Flexible</div></div>
-                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="42"></circle><circle class="radial-fill" cx="50" cy="50" r="42" data-percent="75"></circle></svg><div class="radial-value">75%</div></div><div class="radial-label">Leadership</div><div class="radial-desc">Initiative</div></div>
-                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="42"></circle><circle class="radial-fill" cx="50" cy="50" r="42" data-percent="88"></circle></svg><div class="radial-value">88%</div></div><div class="radial-label">Time Mgmt</div><div class="radial-desc">Efficient</div></div>
-                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="42"></circle><circle class="radial-fill" cx="50" cy="50" r="42" data-percent="80"></circle></svg><div class="radial-value">80%</div></div><div class="radial-label">Critical Think</div><div class="radial-desc">Strategic</div></div>
+                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="40"></circle><circle class="radial-fill" cx="50" cy="50" r="40" data-percent="90"></circle></svg><div class="radial-value">90%</div></div><div class="radial-label">Creativity</div></div>
+                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="40"></circle><circle class="radial-fill" cx="50" cy="50" r="40" data-percent="78"></circle></svg><div class="radial-value">78%</div></div><div class="radial-label">Problem Solving</div></div>
+                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="40"></circle><circle class="radial-fill" cx="50" cy="50" r="40" data-percent="85"></circle></svg><div class="radial-value">85%</div></div><div class="radial-label">Teamwork</div></div>
+                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="40"></circle><circle class="radial-fill" cx="50" cy="50" r="40" data-percent="70"></circle></svg><div class="radial-value">70%</div></div><div class="radial-label">Communication</div></div>
+                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="40"></circle><circle class="radial-fill" cx="50" cy="50" r="40" data-percent="82"></circle></svg><div class="radial-value">82%</div></div><div class="radial-label">Adaptability</div></div>
+                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="40"></circle><circle class="radial-fill" cx="50" cy="50" r="40" data-percent="75"></circle></svg><div class="radial-value">75%</div></div><div class="radial-label">Leadership</div></div>
+                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="40"></circle><circle class="radial-fill" cx="50" cy="50" r="40" data-percent="88"></circle></svg><div class="radial-value">88%</div></div><div class="radial-label">Time Mgmt</div></div>
+                <div class="radial-card"><div class="radial-chart"><svg viewBox="0 0 100 100"><circle class="radial-bg" cx="50" cy="50" r="40"></circle><circle class="radial-fill" cx="50" cy="50" r="40" data-percent="80"></circle></svg><div class="radial-value">80%</div></div><div class="radial-label">Critical Think</div></div>
               </div>
             </div>
           </div>
         </div>
 
         <div class="additional-skills animate-on-scroll">
-          <h3 style="text-align: center; margin-bottom: 2.5rem; font-size: 2rem;">Additional <span class="gradient-text">Technologies</span></h3>
+          <h3 style="text-align: center; margin-bottom: 2rem;">Additional Technologies</h3>
           <div class="skills-cloud">
             <span class="skill-tag" data-tooltip="Robot Operating System 2"><i class='bx bx-bot'></i> ROS2</span>
             <span class="skill-tag" data-tooltip="Simulation environment"><i class='bx bx-cube'></i> Gazebo</span>
             <span class="skill-tag" data-tooltip="Version control"><i class='bx bxl-git'></i> Git</span>
             <span class="skill-tag" data-tooltip="UI design"><i class='bx bxl-figma'></i> Figma</span>
-            <span class="skill-tag" data-tooltip="3D CAD"><i class='bx bx-cube'></i> Fusion 360</span>
+            <span class="skill-tag" data-tooltip="3D CAD"><i class='bx bx-cube-alt'></i> Fusion 360</span>
             <span class="skill-tag" data-tooltip="2D/3D CAD"><i class='bx bx-ruler'></i> AutoCAD</span>
             <span class="skill-tag" data-tooltip="Database"><i class='bx bx-data'></i> MySQL</span>
             <span class="skill-tag" data-tooltip="Scientific computing"><i class='bx bx-math'></i> NumPy</span>
-            <span class="skill-tag" data-tooltip="GUI framework"><i class='bx bx-windows'></i> PyQt6</span>
+            <span class="skill-tag" data-tooltip="GUI framework"><i class='bx bxl-python'></i> PyQt6</span>
             <span class="skill-tag" data-tooltip="Symbolic math"><i class='bx bx-calculator'></i> SymPy</span>
-            <span class="skill-tag" data-tooltip="Multi-body dynamics"><i class='bx bx-cog'></i> MSC Adams</span>
-            <span class="skill-tag" data-tooltip="UML modeling"><i class='bx bx-sitemap'></i> StarUML</span>
           </div>
         </div>
       </div>
@@ -1976,7 +1910,7 @@
       <div class="container">
         <div class="section-header animate-on-scroll">
           <h2 class="section-title">Latest <span>Projects</span></h2>
-          <div class="premium-divider"></div>
+          <div class="divider"></div>
           <p class="section-subtitle">Showcasing innovation in robotics and automation</p>
         </div>
 
@@ -1990,22 +1924,13 @@
         <div class="projects-grid">
           <div class="project-card animate-on-scroll" data-category="robotics">
             <div class="project-image">
-              <img src="https://raw.githubusercontent.com/Sabari425/Portfolio/be6566f63f2bfc47567a79e4fc39da8722784d58/Robot%20arm-rafiki.png" alt="PID Position Control">
+              <img src="https://raw.githubusercontent.com/Sabari425/Portfolio/be6566f63f2bfc47567a79e4fc39da8722784d58/Robot%20arm-rafiki.png" alt="PID Control">
               <div class="project-overlay"><div class="project-tags"><span class="project-tag">ESP32-S3</span><span class="project-tag">PID</span></div></div>
             </div>
             <div class="project-content">
-              <div class="project-title">
-                Position Control of Robotic Joint
-                <div class="project-links">
-                  <a href="#" target="_blank"><i class='bx bx-link-external'></i></a>
-                  <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
-                </div>
-              </div>
-              <p class="project-description">PID closed-loop position control for DC motor Smart Joint. Rise time 0.8s, overshoot 5%, settling time 1.8s with 0.087° accuracy.</p>
-              <div class="project-meta">
-                <div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i> 4.9</span><span class="project-stat"><i class='bx bx-git-branch'></i> 8</span></div>
-                <span class="project-tag">Mar 2026</span>
-              </div>
+              <div class="project-title">Position Control<div class="project-links"><a href="#"><i class='bx bx-link-external'></i></a><a href="https://github.com/Sabari425" target="_blank"><i class='bx bxl-github'></i></a></div></div>
+              <p class="project-description">PID closed-loop control with 0.087° accuracy. Rise time 0.8s, overshoot 5%.</p>
+              <div class="project-meta"><div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i>4.9</span><span class="project-stat"><i class='bx bx-git-branch'></i>8</span></div><span class="project-tag">Mar 2026</span></div>
             </div>
           </div>
           <div class="project-card animate-on-scroll" data-category="cad">
@@ -2014,9 +1939,9 @@
               <div class="project-overlay"><div class="project-tags"><span class="project-tag">Fusion 360</span><span class="project-tag">FEA</span></div></div>
             </div>
             <div class="project-content">
-              <div class="project-title">Cycloidal Gear Drive<div class="project-links"><a href="#"><i class='bx bx-link-external'></i></a><a href="#"><i class='bx bxl-github'></i></a></div></div>
-              <p class="project-description">Designed and simulated cycloidal gear drive with generative topology optimization. ±0.05mm accuracy for zero-backlash.</p>
-              <div class="project-meta"><div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i> 4.7</span><span class="project-stat"><i class='bx bx-git-branch'></i> 5</span></div><span class="project-tag">Mar 2026</span></div>
+              <div class="project-title">Cycloidal Gear<div class="project-links"><a href="#"><i class='bx bx-link-external'></i></a><a href="https://github.com/Sabari425" target="_blank"><i class='bx bxl-github'></i></a></div></div>
+              <p class="project-description">Generative design with ±0.05mm accuracy for zero-backlash.</p>
+              <div class="project-meta"><div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i>4.7</span><span class="project-stat"><i class='bx bx-git-branch'></i>5</span></div><span class="project-tag">Mar 2026</span></div>
             </div>
           </div>
           <div class="project-card animate-on-scroll" data-category="robotics">
@@ -2025,42 +1950,42 @@
               <div class="project-overlay"><div class="project-tags"><span class="project-tag">Python</span><span class="project-tag">PyQt6</span></div></div>
             </div>
             <div class="project-content">
-              <div class="project-title">Robot Kinematic Simulator<div class="project-links"><a href="#"><i class='bx bx-link-external'></i></a><a href="#"><i class='bx bxl-github'></i></a></div></div>
-              <p class="project-description">Full robotic manipulator simulation using DH parameters, NumPy, Matplotlib, and PyQt6 with real-time 3D visualization.</p>
-              <div class="project-meta"><div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i> 4.8</span><span class="project-stat"><i class='bx bx-git-branch'></i> 12</span></div><span class="project-tag">Oct 2025</span></div>
+              <div class="project-title">Kinematic Simulator<div class="project-links"><a href="#"><i class='bx bx-link-external'></i></a><a href="https://github.com/Sabari425" target="_blank"><i class='bx bxl-github'></i></a></div></div>
+              <p class="project-description">DH parameters, NumPy, Matplotlib with real-time 3D visualization.</p>
+              <div class="project-meta"><div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i>4.8</span><span class="project-stat"><i class='bx bx-git-branch'></i>12</span></div><span class="project-tag">Oct 2025</span></div>
             </div>
           </div>
           <div class="project-card animate-on-scroll" data-category="web">
             <div class="project-image">
-              <img src="https://raw.githubusercontent.com/Sabari425/Portfolio/be6566f63f2bfc47567a79e4fc39da8722784d58/Dashboard-amico.png" alt="Admin Dashboard">
-              <div class="project-overlay"><div class="project-tags"><span class="project-tag">JavaScript</span><span class="project-tag">CSS</span></div></div>
+              <img src="https://raw.githubusercontent.com/Sabari425/Portfolio/be6566f63f2bfc47567a79e4fc39da8722784d58/Dashboard-amico.png" alt="Dashboard">
+              <div class="project-overlay"><div class="project-tags"><span class="project-tag">JavaScript</span></div></div>
             </div>
             <div class="project-content">
-              <div class="project-title">Admin Dashboard<div class="project-links"><a href="#"><i class='bx bx-link-external'></i></a><a href="#"><i class='bx bxl-github'></i></a></div></div>
-              <p class="project-description">Comprehensive admin dashboard with analytics and user management for college administration.</p>
-              <div class="project-meta"><div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i> 4.6</span><span class="project-stat"><i class='bx bx-git-branch'></i> 4</span></div><span class="project-tag">Jun 2025</span></div>
+              <div class="project-title">Admin Dashboard<div class="project-links"><a href="https://sabari425-dashboard.onrender.com/" target="_blank"><i class='bx bx-link-external'></i></a><a href="https://github.com/Sabari425" target="_blank"><i class='bx bxl-github'></i></a></div></div>
+              <p class="project-description">Analytics and user management for college administration.</p>
+              <div class="project-meta"><div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i>4.6</span><span class="project-stat"><i class='bx bx-git-branch'></i>4</span></div><span class="project-tag">Jun 2025</span></div>
             </div>
           </div>
           <div class="project-card animate-on-scroll" data-category="web">
             <div class="project-image">
               <img src="https://raw.githubusercontent.com/Sabari425/Portfolio/refs/heads/main/Video%20game%20developer-amico.png" alt="Video Player">
-              <div class="project-overlay"><div class="project-tags"><span class="project-tag">HTML5</span><span class="project-tag">CSS3</span></div></div>
+              <div class="project-overlay"><div class="project-tags"><span class="project-tag">HTML5</span></div></div>
             </div>
             <div class="project-content">
-              <div class="project-title">All Format Video Player<div class="project-links"><a href="https://sp-video-player-0t4z.onrender.com" target="_blank"><i class='bx bx-link-external'></i></a><a href="#"><i class='bx bxl-github'></i></a></div></div>
-              <p class="project-description">Web-based video player supporting multiple formats with custom controls and responsive design.</p>
-              <div class="project-meta"><div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i> 4.5</span><span class="project-stat"><i class='bx bx-git-branch'></i> 3</span></div><span class="project-tag">Feb 2025</span></div>
+              <div class="project-title">Video Player<div class="project-links"><a href="https://sp-video-player-0t4z.onrender.com" target="_blank"><i class='bx bx-link-external'></i></a><a href="https://github.com/Sabari425" target="_blank"><i class='bx bxl-github'></i></a></div></div>
+              <p class="project-description">Multi-format web player with custom controls.</p>
+              <div class="project-meta"><div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i>4.5</span><span class="project-stat"><i class='bx bx-git-branch'></i>3</span></div><span class="project-tag">Feb 2025</span></div>
             </div>
           </div>
           <div class="project-card animate-on-scroll" data-category="robotics">
             <div class="project-image">
               <img src="https://raw.githubusercontent.com/Sabari425/Portfolio/refs/heads/main/Problem%20solving-rafiki.png" alt="E-Yantra">
-              <div class="project-overlay"><div class="project-tags"><span class="project-tag">ROS2</span><span class="project-tag">Gazebo</span></div></div>
+              <div class="project-overlay"><div class="project-tags"><span class="project-tag">ROS2</span></div></div>
             </div>
             <div class="project-content">
-              <div class="project-title">IIT Bombay E-Yantra<div class="project-links"><a href="#"><i class='bx bx-link-external'></i></a><a href="#"><i class='bx bxl-github'></i></a></div></div>
-              <p class="project-description">Robotics competition using ROS2 and Gazebo. Developed autonomous navigation and manipulation algorithms.</p>
-              <div class="project-meta"><div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i> 4.9</span><span class="project-stat"><i class='bx bx-git-branch'></i> 7</span></div><span class="project-tag">Dec 2025</span></div>
+              <div class="project-title">IIT E-Yantra<div class="project-links"><a href="#"><i class='bx bx-link-external'></i></a><a href="https://github.com/Sabari425" target="_blank"><i class='bx bxl-github'></i></a></div></div>
+              <p class="project-description">ROS2 and Gazebo autonomous navigation.</p>
+              <div class="project-meta"><div class="project-stats"><span class="project-stat"><i class='bx bx-star'></i>4.9</span><span class="project-stat"><i class='bx bx-git-branch'></i>7</span></div><span class="project-tag">Dec 2025</span></div>
             </div>
           </div>
         </div>
@@ -2072,14 +1997,14 @@
       <div class="container">
         <div class="section-header animate-on-scroll">
           <h2 class="section-title">My <span>Services</span></h2>
-          <div class="premium-divider"></div>
+          <div class="divider"></div>
           <p class="section-subtitle">Professional solutions in automation and robotics</p>
         </div>
 
         <div class="services-grid" id="servicesGrid">
-          <div class="service-card animate-on-scroll"><div class="service-icon"><i class='bx bx-line-chart'></i></div><h3>MATLAB Programming</h3><p>Engineering calculations, data analysis, visualization, and automating technical tasks for R&D.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
-          <div class="service-card animate-on-scroll"><div class="service-icon"><i class='bx bx-code-alt'></i></div><h3>Coding & Robotics</h3><p>Software development for automation—code, hardware integration, sensor processing.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
-          <div class="service-card animate-on-scroll"><div class="service-icon"><i class='bx bx-cube'></i></div><h3>Fusion 360 Designer</h3><p>3D models and mechanical parts using Autodesk Fusion 360 for engineering projects.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card animate-on-scroll"><div class="service-icon"><i class='bx bx-line-chart'></i></div><h3>MATLAB</h3><p>Engineering calculations, data analysis, and technical automation.</p><a href="https://www.mathworks.com/solutions/engineering.html" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card animate-on-scroll"><div class="service-icon"><i class='bx bx-code-alt'></i></div><h3>Coding & Robotics</h3><p>Software development, hardware integration, sensor processing.</p><a href="https://store.thamesandkosmos.com/collections/robotics" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card animate-on-scroll"><div class="service-icon"><i class='bx bxl-sketch'></i></div><h3>Fusion 360</h3><p>3D models and mechanical parts for engineering projects.</p><a href="https://www.autodesk.com/products/fusion-360/overview" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
         </div>
 
         <div class="more-btn-container animate-on-scroll">
@@ -2087,16 +2012,16 @@
         </div>
 
         <div class="services-hidden" id="servicesHidden">
-          <div class="service-card"><div class="service-icon"><i class='bx bx-cube-alt'></i></div><h3>SolidWorks 3D</h3><p>Professional 3D CAD modeling for mechanical components with parametric design.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
-          <div class="service-card"><div class="service-icon"><i class='bx bx-microchip'></i></div><h3>Arduino Projects</h3><p>Custom Arduino solutions including sensors, automation prototypes, and gadgets.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
-          <div class="service-card"><div class="service-icon"><i class='bx bx-chip'></i></div><h3>ESP32 Projects</h3><p>IoT and embedded systems with WiFi/Bluetooth connectivity and real-time control.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
-          <div class="service-card"><div class="service-icon"><i class='bx bx-bot'></i></div><h3>ROS2 Programming</h3><p>Robotic application development using ROS2 framework for autonomous systems.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
-          <div class="service-card"><div class="service-icon"><i class='bx bx-cog'></i></div><h3>Gazebo Simulation</h3><p>Robot simulation in Gazebo with physics-based environments and sensor modeling.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
-          <div class="service-card"><div class="service-icon"><i class='bx bx-ruler'></i></div><h3>AutoCAD Designer</h3><p>2D/3D technical drawings for engineering and manufacturing documentation.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
-          <div class="service-card"><div class="service-icon"><i class='bx bx-wifi'></i></div><h3>IoT & Embedded</h3><p>Smart automation with sensors, microcontrollers, and cloud connectivity.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
-          <div class="service-card"><div class="service-icon"><i class='bx bx-target-lock'></i></div><h3>Control Systems</h3><p>PID controller design for precise motion control and automation applications.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
-          <div class="service-card"><div class="service-icon"><i class='bx bx-math'></i></div><h3>Kinematics & Dynamics</h3><p>Forward/inverse kinematics and trajectory planning for robotic manipulators.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
-          <div class="service-card"><div class="service-icon"><i class='bx bx-printer'></i></div><h3>Additive Manufacturing</h3><p>3D printing workflow optimization and post-processing for functional prototypes.</p><a href="#" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card"><div class="service-icon"><i class='bx bx-cube-alt'></i></div><h3>SolidWorks</h3><p>3D CAD modeling with parametric design.</p><a href="https://www.solidworks.com/" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card"><div class="service-icon"><i class='bx bx-microchip'></i></div><h3>Arduino</h3><p>Custom Arduino solutions, sensors, automation.</p><a href="https://www.arduino.cc/en/Tutorial/HomePage" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card"><div class="service-icon"><i class='bx bx-chip'></i></div><h3>ESP32</h3><p>IoT and embedded with WiFi/Bluetooth.</p><a href="https://www.espressif.com/en/products/socs/esp32" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card"><div class="service-icon"><i class='bx bx-bot'></i></div><h3>ROS2</h3><p>Robotic application development framework.</p><a href="https://docs.ros.org/en/humble/index.html" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card"><div class="service-icon"><i class='bx bx-cog'></i></div><h3>Gazebo</h3><p>Physics-based robot simulation.</p><a href="https://gazebosim.org/" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card"><div class="service-icon"><i class='bx bx-ruler'></i></div><h3>AutoCAD</h3><p>2D/3D technical drawings.</p><a href="https://www.autodesk.com/products/autocad/overview" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card"><div class="service-icon"><i class='bx bx-wifi'></i></div><h3>IoT</h3><p>Smart automation with cloud connectivity.</p><a href="https://www.geeksforgeeks.org/introduction-to-internet-of-things-iot/" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card"><div class="service-icon"><i class='bx bx-target-lock'></i></div><h3>Control Systems</h3><p>PID controller design and implementation.</p><a href="https://www.tutorialspoint.com/control_systems/index.htm" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card"><div class="service-icon"><i class='bx bx-math'></i></div><h3>Kinematics</h3><p>Forward/inverse kinematics for manipulators.</p><a href="https://www.geeksforgeeks.org/robot-kinematics-using-python/" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
+          <div class="service-card"><div class="service-icon"><i class='bx bx-printer'></i></div><h3>3D Printing</h3><p>Additive manufacturing workflow optimization.</p><a href="https://www.prusa3d.com/en/" target="_blank" class="service-link">Learn More <i class='bx bx-right-arrow-alt'></i></a></div>
         </div>
       </div>
     </section>
@@ -2106,24 +2031,22 @@
       <div class="container">
         <div class="section-header animate-on-scroll">
           <h2 class="section-title">Get In <span>Touch</span></h2>
-          <div class="premium-divider"></div>
+          <div class="divider"></div>
           <p class="section-subtitle">Let's collaborate on innovative automation solutions</p>
         </div>
 
         <div class="contact-container">
           <div class="contact-info animate-on-scroll">
             <h3>Let's Work Together</h3>
-            <p>I'm excited to collaborate on robotics, automation, and software projects. Reach out to discuss your ideas!</p>
+            <p>I'm excited to collaborate on robotics, automation, and software projects.</p>
             <div class="contact-details">
               <div class="contact-item"><i class='bx bxs-envelope'></i><div><h4>Email</h4><a href="mailto:ssabaripoornesh425@gmail.com">ssabaripoornesh425@gmail.com</a></div></div>
-              <div class="contact-item"><i class='bx bxs-phone'></i><div><h4>Phone</h4><a href="tel:+918281936479">+91 82819 36479</a></div></div>
+              <div class="contact-item"><i class='bx bxl-whatsapp'></i><div><h4>WhatsApp</h4><a href="https://wa.me/918281936479" target="_blank">+91 82819 36479</a></div></div>
               <div class="contact-item"><i class='bx bxs-map'></i><div><h4>Location</h4><p>Palakkad, Kerala, India</p></div></div>
             </div>
             <div class="contact-social">
               <a href="https://www.linkedin.com/in/sabari-poornesh-s425/" target="_blank" class="social-link"><i class='bx bxl-linkedin'></i></a>
               <a href="https://github.com/Sabari425" target="_blank" class="social-link"><i class='bx bxl-github'></i></a>
-              <a href="https://www.instagram.com/" target="_blank" class="social-link"><i class='bx bxl-instagram'></i></a>
-              <a href="https://wa.me/918281936479" target="_blank" class="social-link"><i class='bx bxl-whatsapp'></i></a>
             </div>
           </div>
 
@@ -2148,8 +2071,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-copyright">
-          <p>Developed with <i class='bx bx-heart' style="color: var(--accent);"></i> by 
-             <a id="gameTrigger">Sabari Poornesh S</a> © 2025</p>
+          <p>Developed with <i class='bx bx-heart' style="color: var(--accent);"></i> by <a id="gameTrigger">Sabari Poornesh S</a> © 2025</p>
         </div>
         <div class="footer-links">
           <a href="#home">Home</a>
@@ -2164,10 +2086,7 @@
   </footer>
 
   <!-- Back to Top -->
-  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class='bx bx-up-arrow-alt'></i></button>
-
-  <!-- Game Container -->
-  <div class="game-box-container" id="gameContainer"></div>
+  <button class="back-to-top" id="backToTop"><i class='bx bx-up-arrow-alt'></i></button>
 
   <!-- Typed.js -->
   <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
@@ -2180,181 +2099,143 @@
         initLoader();
         initTyped();
         initNavigation();
-        initThemeSwitcher();
-        initExpandableSections();
-        initProjectFilters();
-        initScrollAnimations();
+        initTheme();
+        initExpandables();
+        initFilters();
+        initScrollAnim();
         initSkillBars();
-        initRadialCharts();
+        initRadial();
         initBackToTop();
         initSmoothScroll();
         initHeaderScroll();
-        initPREMIUMGameTrigger();
+        initMassiveGameEffect();
       });
       
       function initLoader() {
-        const loader = document.getElementById('loader');
-        window.addEventListener('load', () => setTimeout(() => loader.classList.add('hidden'), 600));
+        setTimeout(() => document.getElementById('loader').classList.add('hidden'), 400);
       }
       
       function initTyped() {
         new Typed('#typed-strings', {
-          strings: ['Automation Engineer', 'Robotics Developer', 'Embedded Systems', 'ROS2 Programmer', 'CAD Designer', 'Problem Solver'],
-          typeSpeed: 60, backSpeed: 30, backDelay: 2000, loop: true, showCursor: false
+          strings: ['Automation Engineer', 'Robotics Developer', 'Embedded Systems', 'ROS2 Programmer', 'CAD Designer'],
+          typeSpeed: 60,
+          backSpeed: 30,
+          backDelay: 2000,
+          loop: true,
+          showCursor: false
         });
       }
       
       function initNavigation() {
-        const menuIcon = document.getElementById('menu-icon');
-        const navbar = document.getElementById('navbar');
-        const navLinks = document.querySelectorAll('.nav-link');
+        const menu = document.getElementById('menu-icon');
+        const nav = document.getElementById('navbar');
+        const links = document.querySelectorAll('.nav-link');
         
-        menuIcon.addEventListener('click', () => {
-          navbar.classList.toggle('active');
-          menuIcon.classList.toggle('bx-x');
+        menu.addEventListener('click', () => {
+          nav.classList.toggle('active');
+          menu.classList.toggle('bx-x');
         });
         
-        navLinks.forEach(link => {
-          link.addEventListener('click', () => {
-            navLinks.forEach(l => l.classList.remove('active'));
-            link.classList.add('active');
-            navbar.classList.remove('active');
-            menuIcon.classList.remove('bx-x');
-          });
-        });
+        links.forEach(l => l.addEventListener('click', () => {
+          links.forEach(x => x.classList.remove('active'));
+          l.classList.add('active');
+          nav.classList.remove('active');
+          menu.classList.remove('bx-x');
+        }));
         
         const sections = document.querySelectorAll('section[id]');
         window.addEventListener('scroll', () => {
-          let current = '';
-          sections.forEach(section => {
-            const sectionTop = section.offsetTop - 120;
-            if (scrollY >= sectionTop && scrollY < sectionTop + section.offsetHeight) {
-              current = section.getAttribute('id');
-            }
+          let cur = '';
+          sections.forEach(s => {
+            const top = s.offsetTop - 120;
+            if (scrollY >= top && scrollY < top + s.offsetHeight) cur = s.getAttribute('id');
           });
-          navLinks.forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('href') === `#${current}`) link.classList.add('active');
+          links.forEach(l => {
+            l.classList.remove('active');
+            if (l.getAttribute('href') === '#' + cur) l.classList.add('active');
           });
         });
       }
       
-      function initThemeSwitcher() {
-        const themeOptions = document.querySelectorAll('.theme-option');
+      function initTheme() {
+        const opts = document.querySelectorAll('.theme-option');
         const body = document.body;
-        const savedTheme = localStorage.getItem('premium-theme');
-        if (savedTheme) applyTheme(savedTheme);
+        const saved = localStorage.getItem('portfolio-theme');
+        if (saved) applyTheme(saved);
         
-        themeOptions.forEach(option => {
-          option.addEventListener('click', () => {
-            const theme = option.dataset.theme;
-            applyTheme(theme);
-            localStorage.setItem('premium-theme', theme);
-            themeOptions.forEach(opt => opt.classList.remove('active'));
-            option.classList.add('active');
-          });
-        });
+        opts.forEach(o => o.addEventListener('click', () => {
+          const t = o.dataset.theme;
+          applyTheme(t);
+          localStorage.setItem('portfolio-theme', t);
+          opts.forEach(opt => opt.classList.remove('active'));
+          o.classList.add('active');
+        }));
         
-        function applyTheme(theme) {
+        function applyTheme(t) {
           body.classList.remove('light-theme', 'yellow-theme', 'grey-white-black-theme');
-          if (theme === 'light') body.classList.add('light-theme');
-          else if (theme === 'yellow') body.classList.add('yellow-theme');
-          else if (theme === 'grey') body.classList.add('grey-white-black-theme');
+          if (t === 'light') body.classList.add('light-theme');
+          else if (t === 'yellow') body.classList.add('yellow-theme');
+          else if (t === 'grey') body.classList.add('grey-white-black-theme');
         }
       }
       
-      function initExpandableSections() {
-        // About
+      function initExpandables() {
         const aboutBtn = document.getElementById('aboutMoreBtn');
         const aboutHidden = document.getElementById('aboutHiddenCards');
-        if (aboutBtn) {
-          aboutBtn.addEventListener('click', () => {
-            aboutHidden.classList.toggle('show');
-            aboutBtn.classList.toggle('active');
-            aboutBtn.innerHTML = aboutHidden.classList.contains('show') ? 
-              'Show Less <i class="bx bx-chevron-up"></i>' : 'Show More <i class="bx bx-chevron-down"></i>';
-          });
-        }
+        if (aboutBtn) aboutBtn.addEventListener('click', () => {
+          aboutHidden.classList.toggle('show');
+          aboutBtn.classList.toggle('active');
+          aboutBtn.innerHTML = aboutHidden.classList.contains('show') ? 'Show Less <i class="bx bx-chevron-up"></i>' : 'Show More <i class="bx bx-chevron-down"></i>';
+        });
         
-        // Services
-        const servicesBtn = document.getElementById('servicesMoreBtn');
-        const servicesHidden = document.getElementById('servicesHidden');
-        if (servicesBtn) {
-          servicesBtn.addEventListener('click', () => {
-            servicesHidden.classList.toggle('show');
-            servicesBtn.classList.toggle('active');
-            servicesBtn.innerHTML = servicesHidden.classList.contains('show') ? 
-              'Show Less <i class="bx bx-chevron-up"></i>' : 'More Services <i class="bx bx-chevron-down"></i>';
-          });
-        }
+        const servBtn = document.getElementById('servicesMoreBtn');
+        const servHidden = document.getElementById('servicesHidden');
+        if (servBtn) servBtn.addEventListener('click', () => {
+          servHidden.classList.toggle('show');
+          servBtn.classList.toggle('active');
+          servBtn.innerHTML = servHidden.classList.contains('show') ? 'Show Less <i class="bx bx-chevron-up"></i>' : 'More Services <i class="bx bx-chevron-down"></i>';
+        });
         
-        // Skills
-        const skillsBtn = document.getElementById('skillsMoreBtn');
-        const skillsHidden = document.getElementById('skillsHiddenContainer');
-        if (skillsBtn) {
-          skillsBtn.addEventListener('click', () => {
-            if (skillsHidden.style.maxHeight === '0px' || !skillsHidden.style.maxHeight) {
-              skillsHidden.style.maxHeight = '500px';
-              skillsHidden.style.opacity = '1';
-              skillsHidden.style.marginTop = '1rem';
-              skillsBtn.innerHTML = 'Show Less <i class="bx bx-chevron-up"></i>';
-            } else {
-              skillsHidden.style.maxHeight = '0';
-              skillsHidden.style.opacity = '0';
-              skillsHidden.style.marginTop = '0';
-              skillsBtn.innerHTML = 'More Skills <i class="bx bx-chevron-down"></i>';
-            }
-            skillsBtn.classList.toggle('active');
-            setTimeout(() => {
-              document.querySelectorAll('#skillsHiddenContainer .skill-progress').forEach(bar => {
-                if (!bar.style.width) bar.style.width = bar.dataset.width + '%';
-              });
-            }, 100);
-          });
-        }
-      }
-      
-      function initProjectFilters() {
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        const projects = document.querySelectorAll('.project-card');
-        filterBtns.forEach(btn => {
-          btn.addEventListener('click', () => {
-            filterBtns.forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            const filter = btn.dataset.filter;
-            projects.forEach(p => p.style.display = (filter === 'all' || p.dataset.category === filter) ? 'block' : 'none');
-          });
+        const skillBtn = document.getElementById('skillsMoreBtn');
+        const skillHidden = document.getElementById('skillsHiddenContainer');
+        if (skillBtn) skillBtn.addEventListener('click', () => {
+          if (skillHidden.style.maxHeight === '0px' || !skillHidden.style.maxHeight) {
+            skillHidden.style.maxHeight = '500px';
+            skillHidden.style.opacity = '1';
+            skillBtn.innerHTML = 'Show Less <i class="bx bx-chevron-up"></i>';
+            setTimeout(() => document.querySelectorAll('#skillsHiddenContainer .skill-progress').forEach(b => b.style.width = b.dataset.width + '%'), 50);
+          } else {
+            skillHidden.style.maxHeight = '0';
+            skillHidden.style.opacity = '0';
+            skillBtn.innerHTML = 'More Skills <i class="bx bx-chevron-down"></i>';
+          }
+          skillBtn.classList.toggle('active');
         });
       }
       
-      function initScrollAnimations() {
-        const elements = document.querySelectorAll('.animate-on-scroll');
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
-        elements.forEach(el => observer.observe(el));
+      function initFilters() {
+        document.querySelectorAll('.filter-btn').forEach(b => b.addEventListener('click', () => {
+          document.querySelectorAll('.filter-btn').forEach(x => x.classList.remove('active'));
+          b.classList.add('active');
+          const f = b.dataset.filter;
+          document.querySelectorAll('.project-card').forEach(p => p.style.display = (f === 'all' || p.dataset.category === f) ? 'block' : 'none');
+        }));
+      }
+      
+      function initScrollAnim() {
+        const obs = new IntersectionObserver(e => e.forEach(x => { if (x.isIntersecting) x.target.classList.add('visible'); }), { threshold: 0.1 });
+        document.querySelectorAll('.animate-on-scroll').forEach(el => obs.observe(el));
       }
       
       function initSkillBars() {
-        const bars = document.querySelectorAll('.skill-progress');
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(e => { if (e.isIntersecting) e.target.style.width = e.target.dataset.width + '%'; });
-        }, { threshold: 0.5 });
-        bars.forEach(b => observer.observe(b));
+        const obs = new IntersectionObserver(e => e.forEach(x => { if (x.isIntersecting) x.target.style.width = x.target.dataset.width + '%'; }), { threshold: 0.5 });
+        document.querySelectorAll('.skill-progress').forEach(b => obs.observe(b));
       }
       
-      function initRadialCharts() {
-        const fills = document.querySelectorAll('.radial-fill');
-        const circ = 2 * Math.PI * 42;
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(e => {
-            if (e.isIntersecting) {
-              const percent = e.target.dataset.percent;
-              e.target.style.strokeDashoffset = circ - (percent / 100) * circ;
-            }
-          });
-        }, { threshold: 0.5 });
-        fills.forEach(f => observer.observe(f));
+      function initRadial() {
+        const circ = 2 * Math.PI * 40;
+        const obs = new IntersectionObserver(e => e.forEach(x => { if (x.isIntersecting) { const p = x.target.dataset.percent; x.target.style.strokeDashoffset = circ - (p / 100) * circ; } }), { threshold: 0.5 });
+        document.querySelectorAll('.radial-fill').forEach(f => obs.observe(f));
       }
       
       function initBackToTop() {
@@ -2364,96 +2245,123 @@
       }
       
       function initSmoothScroll() {
-        document.querySelectorAll('a[href^="#"]').forEach(a => {
-          a.addEventListener('click', function(e) {
-            const href = this.getAttribute('href');
-            if (href === '#' || href === '') return;
-            const target = document.querySelector(href);
-            if (target) {
-              e.preventDefault();
-              window.scrollTo({ top: target.offsetTop - 80, behavior: 'smooth' });
-            }
-          });
-        });
+        document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', function(e) {
+          const href = this.getAttribute('href');
+          if (href === '#' || href === '') return;
+          const t = document.querySelector(href);
+          if (t) {
+            e.preventDefault();
+            window.scrollTo({ top: t.offsetTop - 80, behavior: 'smooth' });
+          }
+        }));
       }
       
       function initHeaderScroll() {
-        const header = document.getElementById('header');
-        window.addEventListener('scroll', () => header.classList.toggle('scrolled', scrollY > 50));
+        const h = document.getElementById('header');
+        window.addEventListener('scroll', () => h.classList.toggle('scrolled', scrollY > 50));
       }
       
-      // PREMIUM Galaxy Game Trigger
-      function initPREMIUMGameTrigger() {
+      // MASSIVE GAME OPENING EFFECT
+      function initMassiveGameEffect() {
         const trigger = document.getElementById('gameTrigger');
-        const overlay = document.getElementById('galaxyOverlay');
+        const portal = document.getElementById('portalOverlay');
+        const effects = document.getElementById('gameEffects');
         
         if (trigger) {
           trigger.addEventListener('click', (e) => {
             e.preventDefault();
             
-            // Activate galaxy overlay with premium animation
-            overlay.classList.add('active');
+            // Activate portal
+            portal.classList.add('active');
             
-            // Slow motion galaxy effect then open game
+            // Create massive effects
+            createMassiveEffects();
+            
+            // After portal animation, open game sequence
             setTimeout(() => {
-              overlay.classList.remove('active');
-              createGameSequence();
+              portal.classList.remove('active');
+              startGameSequence();
             }, 1800);
           });
         }
-      }
-      
-      function createGameSequence() {
-        const container = document.getElementById('gameContainer');
-        container.innerHTML = '';
-        let step = 0;
         
-        const box1 = document.createElement('div');
-        box1.className = 'sequential-box';
-        box1.style.left = '60px';
-        box1.style.top = '180px';
-        box1.style.background = 'linear-gradient(135deg, #e94560, #ff6b6b)';
-        box1.innerHTML = '<i class="bx bx-joystick"></i>';
-        container.appendChild(box1);
+        function createMassiveEffects() {
+          effects.innerHTML = '';
+                   
+          // Stars
+          for (let i = 0; i < 200; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = Math.random() * 100 + '%';
+            star.style.top = Math.random() * 100 + '%';
+            star.style.animationDelay = Math.random() * 2 + 's';
+            effects.appendChild(star);
+            setTimeout(() => star.remove(), 3000);
+          }
+          
+          // Lasers
+          for (let i = 0; i < 100; i++) {
+            setTimeout(() => {
+              const laser = document.createElement('div');
+              laser.className = 'laser';
+              laser.style.left = (10 + i * 12) + '%';
+              laser.style.bottom = '0';
+              effects.appendChild(laser);
+              setTimeout(() => laser.remove(), 1000);
+            }, i * 100);
+          }
+          
+        }
         
-        box1.addEventListener('click', function firstClick() {
-          if (step !== 0) return;
-          step = 1;
-          box1.removeEventListener('click', firstClick);
-          box1.style.background = 'linear-gradient(135deg, #00d4ff, #0096b8)';
-          box1.innerHTML = '<i class="bx bx-game"></i>';
+        function startGameSequence() {
+          effects.innerHTML = '';
+          let step = 0;
           
-          const box2 = document.createElement('div');
-          box2.className = 'sequential-box';
-          box2.style.left = '200px';
-          box2.style.top = '320px';
-          box2.style.background = 'linear-gradient(135deg, #ffd700, #e6c200)';
-          box2.innerHTML = '<i class="bx bx-ghost"></i>';
-          container.appendChild(box2);
+          const box1 = document.createElement('div');
+          box1.className = 'game-box';
+          box1.style.left = '50px';
+          box1.style.bottom = '150px';
+          box1.style.background = 'linear-gradient(135deg, #e90560, #ff6b6b)';
+          box1.innerHTML = '<i class="bx bx-joystick"></i>';
+          effects.appendChild(box1);
           
-          box2.addEventListener('click', function secondClick() {
-            window.open('https://sabari-mine-game-for-porfolio.onrender.com', '_blank');
-            setTimeout(() => container.innerHTML = '', 500);
+          box1.addEventListener('click', function firstClick() {
+            if (step !== 0) return;
+            step = 1;
+            box1.removeEventListener('click', firstClick);
+            box1.style.background = 'linear-gradient(135deg, #00d0ff, #0088a8)';
+            box1.innerHTML = '<i class="bx bx-game"></i>';
+            
+            const box2 = document.createElement('div');
+            box2.className = 'game-box';
+            box2.style.left = '200px';
+            box2.style.bottom = '300px';
+            box2.style.background = 'linear-gradient(135deg, #ffc800, #b39000)';
+            box2.innerHTML = '<i class="bx bx-ghost"></i>';
+            effects.appendChild(box2);
+            
+            box2.addEventListener('click', () => {
+              window.open('https://sabari-mine-game-for-porfolio.onrender.com', '_blank');
+              setTimeout(() => effects.innerHTML = '', 500);
+            });
           });
-        });
-        
-        setTimeout(() => { if (step === 0) container.innerHTML = ''; }, 10000);
+          
+          setTimeout(() => { if (step === 0) effects.innerHTML = ''; }, 12000);
+        }
       }
       
       // Form validation
       const form = document.querySelector('.contact-form form');
       if (form) {
         form.addEventListener('submit', (e) => {
-          const name = document.getElementById('name').value.trim();
-          const email = document.getElementById('email').value.trim();
+          const n = document.getElementById('name').value.trim();
+          const em = document.getElementById('email').value.trim();
           const msg = document.getElementById('message').value.trim();
-          if (name.length < 2) { e.preventDefault(); alert('Enter valid name'); return; }
-          if (!/^\S+@\S+\.\S+$/.test(email)) { e.preventDefault(); alert('Enter valid email'); return; }
-          if (msg.length < 10) { e.preventDefault(); alert('Message too short'); return; }
+          if (n.length < 2) { e.preventDefault(); alert('Enter valid name'); }
+          else if (!/^\S+@\S+\.\S+$/.test(em)) { e.preventDefault(); alert('Enter valid email'); }
+          else if (msg.length < 10) { e.preventDefault(); alert('Message too short'); }
         });
       }
-      
-      console.log('%c✨ PREMIUM Portfolio · Sabari Poornesh S', 'font-size: 18px; font-weight: 800; background: linear-gradient(135deg, #00d4ff, #ffd700); -webkit-background-clip: text; -webkit-text-fill-color: transparent;');
     })();
   </script>
 </body>
